@@ -65,7 +65,7 @@ categories:
       - manage-my-objects-using-the-swift-command-line-client.md
       - manage-my-objects-using-the-object-storage-api.md
       - manage-my-objects-using-the-self-service-portal.md
-- category: macrometa-service2
+- category: macrometa-service
   icon: fa fa-cloud
 - category: reporting
   icon: fa fa-signal

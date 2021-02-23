@@ -1,4 +1,4 @@
 ---
-name: Macrometa Service 2
+name: Service de Macrometa
 url: https://macrometa.dev
 ---
