@@ -67,8 +67,6 @@ categories:
       - manage-my-objects-using-the-self-service-portal.md
 - category: macrometa-service
   icon: fa fa-cloud
-  articles:
-#     - macrometa-overview.md
 - category: reporting
   icon: fa fa-signal
   articles:
