@@ -1,5 +1,5 @@
 ---
-title: "Comment faire: Générer une clé API CloudMC"
+title: "Générer une clé API CloudMC"
 slug: cloudmc-cle-api
 ---
 
