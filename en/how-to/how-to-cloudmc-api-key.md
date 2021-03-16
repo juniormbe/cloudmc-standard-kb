@@ -37,7 +37,3 @@ The endpoint for making API calls to the system is displayed above the list of k
 1. From the *API credentials* screen, click the icon labeled *Revoke API key* on the far right side of the desired entry.
 1. A confirmation dialog box will appear.  Click *Revoke*.
 1. The API key will be revoked immediately and is no longer valid for use.
-
-### See also
-
-Link to API docs?

@@ -37,7 +37,3 @@ Le point de terminaison pour effectuer des appels d'API vers le système est aff
 1. À partir de l'écran *Identifiants d'API*, cliquez sur l'icône intitulée *Révoquer la clé d'API* à l'extrême droite de l'entrée souhaitée.
 1. Une boîte de dialogue de confirmation apparaît. Cliquez sur *Révoquer*.
 1. La clé API sera immédiatement révoquée et ne pourra plus être utilisée.
-
-### See also
-
-Link to API docs?
