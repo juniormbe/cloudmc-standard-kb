@@ -1,23 +1,25 @@
-Query string control?  Is that what like Monil showed us today?
+---
+title: "StackPath Service: CDN settings for sites"
+slug: stackpath-cdn-settings
+---
 
-
-What is the Vary header?  In this context, it means we can tell the cache a to keep list of headers that the origin server uses to make a decision on what content to return to the client.  The vary header is a response header that that server puts into the response and it's that list of headers.
-
-Do I document EdgeRules here?  No, that's WAF, so not yet.
-
-HTTP/2 Server Push
-
-What can I break with each of these features?
 
 Summary
 
-Required permissions
+What can I break with each of these features?  Fortunately, nearly all of the settings function independently of each other, which makes it easier to tweak settings, measure the impact, and then decide whether to modify the setting again.  Also, most of these setting won't actually break anything, except for CORS support.
 
-Navigate to
+Required permissions
+Users must have the *User* role or higher, and be a member of the environment, and have the environment role *Editor* or *Owner* to manage StackPath sites.
+
+Navigate to the desired StackPath service, click on the desired environment, and click on the tab labeled *Sites* to manage your sites.
+
+### Feature overview
+
+The CDN feature settings are grouped into two sections.  The section on cache handling controls how the CDN will make decisions on storing assets and how it will deliver those assets.  The section on client browser policy controls how the CDN will tell the end-user's browser to handle assets.
 
 #### Cache handling
 
-**cache keys** The criteria that make an asset unique.  Give example of file and cache keys.  For example, http://www.example.com/page.html would be considered by search engines to be an entirely different page from http://www.example.com/page.html?parameter=1, even though both URLs may reference the same content.[5][6]
+When the CDN needs to differentiate between assets that could be similar or identical, **cache keys** are the criteria that make an asset unique.  The CDN will examine these criteria for each asset and then store .  For example, http://www.example.com/page.html would be considered by search engines to be an entirely different page from http://www.example.com/page.html?parameter=1, even though both URLs may reference the same content.[5][6]
 
 - Lifetime / TTL: Length of time an asset will be stored in the cache before the CDN refreshes the asset from the origin.
 ![Lifetime](../../assets/sp-cdn-lifetime-en.png)
@@ -28,7 +30,7 @@ Navigate to
 - GZIP compression: Compress text-type content by level 1 - 6.  Won't compress file types that are already compressed.  The recommended compression level is 6.
 - Content persistence: If assets in the cache expire but the origin isn't reachable, the assets will be conserved in the cache and served to users until the origin is back.
 ![Gzip compression](../../assets/sp-cdn-gzip-en.png)
-- Use Vary header: Enabling this tells the cache a to keep list of headers that the origin server uses to make a decision on what content to return to the client.  The vary header is a response header that that server puts into the response and it's a list of those headers.
+- Use Vary header: What is the Vary header?  In this context, it means we can tell the cache a to keep list of headers that the origin server uses to make a decision on what content to return to the client. Enabling this tells the cache a to keep list of headers that the origin server uses to make a decision on what content to return to the client.  The vary header is a response header that that server puts into the response and it's a list of those headers.
 ![Vary header](../../assets/sp-cdn-vary-en.png)
 - Canonical header:  Useful for search engines and SEO.  Adds the Link header and defines the asset as canonical.  This helps in the SP// CDN context because the asset is being served through a domain name that may or may not match what's in the HTML, and including this header will tell the search engine what this document actually represents.
 - URL caching: Copied from SP// site b/c I don't really get this one: This feature allows caching of URLs without file extensions. By default, the StackPath CDN caches static content such as images, CSS and Javascript files. When enabling URL Caching, use-cases that desire to cache the entirety of a website's assets (including dynamic content) can be fulfilled.
@@ -66,4 +68,4 @@ Navigate to
 
 *Outstanding issues:*
 
-*Schedule:* ASAP
+*Schedule:* By 14 April

@@ -4,9 +4,9 @@ slug: stackpath-sites-overview
 ---
 
 
-### What are StackPath sites, and why should I use them?
+### What are StackPath sites, and how do they help me?
 
-The site is how we control the delivery of content through the StackPath network.  This includes configuration of features available through the CDN, as well as WAF, and Serverless Scripting.
+**Sites** are how we control the delivery of content through the StackPath network.  This includes configuration of features available through the Content Delivery Network (CDN), as well as Web Application Firewall (WAF), and Serverless Scripting.
 
 A site acts as the bridge between servicing the requests from users via one or more *Delivery domains*, and grabbing the static *assets* for those requests from the servers where the assets are hosted, called the *origin*.  It's a quick and easy way to improve your application performance.
 
@@ -30,9 +30,6 @@ It's really important to have your Web server at the origin be configured to ser
 Controls the kinds of HTTP requests that can come in based on criteria such as headers and query parameters.
 -->
 
-Required permissions
-
-Navigate to
 
 ### See also
 
@@ -61,4 +58,4 @@ Doc spec:
 
 *Outstanding issues:*
 
-*Schedule:* ASAP
+*Schedule:* By 14 April

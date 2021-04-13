@@ -1,3 +1,8 @@
+---
+title: "StackPath Service: How-to for CDN"
+slug: stackpath-cdn-howto
+---
+
 Different ways to affect cache performance.
 
 Cache TTL
@@ -6,6 +11,13 @@ DNS TTL
 ##### How do I set up my site?
 
 ##### How do I set up DNS A record to StackPath Edge server?
+1. Log in to your domain provider (e.g. GoDaddy)
+1. Find and click on each of your domains below
+1. Find DNS Settings or just Settings
+1. Look for Records and update them so they point to your site's Edge address as follows: acme.cloud.ca
+Type	Name	Value
+A	@	151.139.128.10
+1. All done! (it can take up to 24 hours for the change to take effect)  The amount of time for the change to propogate could be as long as the value of the TTL field in the domain's SOA record.
 
 ##### How do I set up multiple origins for content?
 
@@ -46,4 +58,4 @@ Navigate to
 
 *Outstanding issues:*
 
-*Schedule:* ASAP
+*Schedule:* By 14 April
