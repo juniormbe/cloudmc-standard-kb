@@ -4,22 +4,21 @@ slug: stackpath-cdn-settings
 ---
 
 
-Summary
+<!-- Summary
 
 What can I break with each of these features?  Fortunately, nearly all of the settings function independently of each other, which makes it easier to tweak settings, measure the impact, and then decide whether to modify the setting again.  Also, most of these setting won't actually break anything, except for CORS support.
+-->
 
-Required permissions
+
+### Feature overview
+
+The CDN feature settings are grouped into two sections.  The first section addresses cache handling, which controls how the CDN will make decisions on storing assets as well as how those assets will be delivered.  The second section includes policies for the client browser, which control how the CDN will tell the end-user's browser to handle assets.
+
 Users must have the *User* role or higher, and be a member of the environment, and have the environment role *Editor* or *Owner* to manage StackPath sites.
 
 Navigate to the desired StackPath service, click on the desired environment, and click on the tab labeled *Sites* to manage your sites.
 
-### Feature overview
-
-The CDN feature settings are grouped into two sections.  The section on cache handling controls how the CDN will make decisions on storing assets and how it will deliver those assets.  The section on client browser policy controls how the CDN will tell the end-user's browser to handle assets.
-
 #### Cache handling
-
-When the CDN needs to differentiate between assets that could be similar or identical, **cache keys** are the criteria that make an asset unique.  The CDN will examine these criteria for each asset and then store .  For example, http://www.example.com/page.html would be considered by search engines to be an entirely different page from http://www.example.com/page.html?parameter=1, even though both URLs may reference the same content.[5][6]
 
 - Lifetime / TTL: Length of time an asset will be stored in the cache before the CDN refreshes the asset from the origin.
 ![Lifetime](../../assets/sp-cdn-lifetime-en.png)
@@ -48,24 +47,6 @@ When the CDN needs to differentiate between assets that could be similar or iden
 ![HTTP/2 Server Push](../../assets/sp-cdn-http2serverpush-en.png)
 
 
-*Document specification:* StackPath Service: Sites and CDN features
-
-*Overview:* KB article to ...
-
 *Description of target audience:* CloudMC Users.  Technical but less experienced.
 
 *Languages:* English, French
-
-*Non-goals:*
-
-*Estimated length:* Single article / Multiple articles
-
-*Finer points:*
-
-*Outline of document:* Sections for each function
-
-*Reviewers and their responsibilities:*
-
-*Outstanding issues:*
-
-*Schedule:* By 14 April
