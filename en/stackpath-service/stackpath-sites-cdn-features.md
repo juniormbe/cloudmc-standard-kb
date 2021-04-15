@@ -45,8 +45,3 @@ Navigate to the desired StackPath service, click on the desired environment, and
 ![HTTP/2 support](../../assets/sp-cdn-http2support-en.png)
 - HTTP/2 server push:  Enables the CDN to push assets to the browser prior to the browser requesting them.  This can help improve performance on sites with pages that have no third-party content, such that a requested page and all its assets are sent in a single response, or on sites that have a clear likely click-through path, where most users are likely to click on a given page.  The headers must be configured properly at the origin server.
 ![HTTP/2 Server Push](../../assets/sp-cdn-http2serverpush-en.png)
-
-
-*Description of target audience:* CloudMC Users.  Technical but less experienced.
-
-*Languages:* English, French
