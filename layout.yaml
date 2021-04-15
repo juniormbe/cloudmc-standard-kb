@@ -54,7 +54,10 @@ categories:
   articles:
       - stackpath-overview-workloads.md
       - stackpath-managing-workloads.md
-      - stackpath-connect-to-instance-via-ssh
+      - stackpath-connect-to-instance-via-ssh.md
+      - stackpath-sites-overview.md
+      - stackpath-sites-cdn-features.md
+#      - stackpath-sites-how-to.md
 #      - stackpath-working-with-instances.md
 - category: object-storage-service
   icon: fa fa-hdd-o
