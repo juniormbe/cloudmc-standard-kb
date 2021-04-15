@@ -1,5 +1,5 @@
 ---
-title: "StackPath Service: Sites overview"
+title: "StackPath Service: Overview of sites"
 slug: stackpath-sites-overview
 ---
 
@@ -33,8 +33,9 @@ It's really important to have your Web server at the origin be configured to ser
 ##### Cache keys
 When the CDN needs to differentiate between assets that could be similar or identical, **cache keys** are the criteria that make an asset unique.  The CDN will examine these criteria for each asset and then store .  For example, http://www.example.com/page.html would be considered by search engines to be an entirely different page from http://www.example.com/page.html?parameter=1, even though both URLs may reference the same content.[5][6]
 
-##### TTLs and expiration times
-Higher cache TTLs will reduce the number of times the CDN will pull the assets from origin, however it also means that without manually clearing the cache, an update to an asset will take longer to propagate to end users.  Can go with origin's cache control, or define in your site's CDN settings.
+##### Lifetimes and TTLs
+
+One of the most important settings to consider when configuring a CDN is the length of time after an asset has been stored in the cache before the CDN refreshes the asset from the origin.  This is called the **lifetime**, and is frequently referred to as the TTL, or *time to live*. Higher cache TTLs will reduce the number of times the CDN will pull the assets from origin, however it also means that without manually clearing the cache, an update to an asset will take longer to propagate to end users.  Can go with origin's cache control, or define in your site's CDN settings.
 
 TTLs are enforced wherever there are caches that store assets, namely at the CDN and at the end-user's browser.  An unrelated TTL that often comes into play is for DNS records, and this is controlled by a domain's name servers.  The DNS TTL does not affect the expiration of assets.
 
