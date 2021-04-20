@@ -51,7 +51,7 @@ The WAF service can be enabled on the site creation page, or anytime after the s
 - **Anti-automation and bot protection**
    - Automated traffic, including bots, frequently exhibit certain characteristics that can give them away.  Requests that lack certain headers, those that fail to return cookies, and other behaviour can all be clues.  The WAF can look for these patterns and challenge or block traffic accordingly.  We recommend evaluating whether users of your application could match any of these criteria, then enabling protection against any that don't match your users' needs.
 
-- Spam and abuse
+- **Spam and abuse**: 
    - Form submission validation
 
 - Behavioral WAF
