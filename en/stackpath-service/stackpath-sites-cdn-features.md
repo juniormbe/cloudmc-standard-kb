@@ -11,9 +11,15 @@ What can I break with each of these features?  Fortunately, nearly all of the se
 
 The StackPath CDN feature settings are grouped into two sections.  The first section addresses cache handling, which controls how the CDN will make decisions on storing assets as well as how those assets will be delivered.  The latter section includes policies for the client browser, which control how the CDN will tell the end-user's browser to handle assets.
 
-Users must have the *User* role or higher, and be a member of the environment, and have the environment role *Editor* or *Owner* to manage StackPath sites.
+Users must have the *User* role or higher, and be a member of the target environment with the environment role *Editor* or *Owner* to manage StackPath sites.
 
-Navigate to the desired StackPath service, click on the desired environment, and click on the tab labeled *Sites* to manage your sites.
+Navigate to the desired StackPath service, click on the desired environment, and click on the tab labeled *Sites* to manage your sites.   The site must have the **CDN** service enabled in order for the *CDN* item to appear.
+
+![CDN screen item](../../assets/sp-cdn-screen-item-en.png)
+
+The CDN service can be enabled on the site creation page, or anytime after the site is created by going to the *Sites* tab, clicking on the three-dot menu on the far right-hand side of the desired site, and selecting *Enable CDN*.
+
+![Enable CDN](../../assets/sp-cdn-enable-en.png)
 
 #### Cache handling
 

@@ -8,9 +8,13 @@ Different ways to affect cache performance.
 Cache TTL
 DNS TTL
 
-##### How do I set up my site?
+#### How do I set up my site?
 
-##### How do I set up DNS A record to StackPath Edge server?
+#### How to set up CDN
+
+#### How to set up WAF
+
+#### How do I set up DNS A record to StackPath Edge server?
 1. Log in to your domain provider (e.g. GoDaddy)
 1. Find and click on each of your domains below
 1. Find DNS Settings or just Settings
@@ -19,9 +23,9 @@ Type	Name	Value
 A	@	151.139.128.10
 1. All done! (it can take up to 24 hours for the change to take effect)  The amount of time for the change to propogate could be as long as the value of the TTL field in the domain's SOA record.
 
-##### How do I set up multiple origins for content?
+#### How do I set up multiple origins for content?
 
-##### How do I manually purge all assets from the cache and force assets to be reloaded?
+#### How do I manually purge all assets from the cache and force assets to be reloaded?
 1. Click on the *Sites* tab.
 1. Click on the desired site.
 1. Click on the *CDN* item on the left.
@@ -30,7 +34,7 @@ A	@	151.139.128.10
 1. A dialog box will appear asking for confirmation.  Click *Submit*.
 1. The CDN cache will be purged.
 
-##### How do I choose CDN settings that can help me with SEO optimization?
+#### How do I choose CDN settings that can help me with SEO optimization?
 
 Summary
 

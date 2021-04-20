@@ -44,4 +44,5 @@ When the CDN needs to differentiate between assets that could be similar or iden
 #### Web Application Firewall (WAF)
 
 Controls the kinds of HTTP requests that can come in based on criteria such as headers and query parameters.
+
 -->
