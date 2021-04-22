@@ -1,6 +1,6 @@
 ---
-title: ""
-slug:
+title: "StackPath Service: Create a site"
+slug: stackpath-sites-create
 ---
 
 
