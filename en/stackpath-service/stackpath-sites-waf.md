@@ -22,7 +22,7 @@ The WAF service can be enabled on the site creation page, or anytime after the s
 
 - **WAF mode:**  Overall operation of the WAF.
   - **Protect:**  The WAF will apply and enforce the selected policies to incoming traffic.
-  - **Monitor:**  The WAF will apply policies but will not block or challenge requests.  Requests that match a rule will be logged.  This mode is useful for testing.  We recommend when first enabling the StackPath WAF to select Monitor mode, to prevent traffic from being blocked while you are initally configuring the system.
+  - **Monitor:**  The WAF will apply policies but will not block or challenge requests.  Requests that match a rule will be logged.  This mode is useful for testing.  We recommend when first enabling the StackPath WAF to select Monitor mode, to prevent traffic from being blocked while you are initally configuring the system.  Once configuration has been completed, the WAF may be switched to Protect mode.
 ![WAF mode](../../assets/sp-waf-mode-en.png)
 
 - **API URL configuration:**  If your application offers an API that is served from a domain name that is protected by the StackPath WAF, this API **must** be identified to the WAF.  If this step is not taken, the WAF may block requests to the API and cause an interruption of service.  Because the host name is already known from the site configuration, simply add the path, or paths, to the text box.  For example, if your API is accessed at `https://www.acme.com/api/v2`, enter `/api/v2` into the text box.  Requests that begin with this path will be recognized as requests to your API (eg, `https://www.acme.com/api/v2/list`).  Multiple paths are supported.  Note that the path is not case sensitive.  The following WAF features will not be applied to requests sent to these paths:
@@ -34,8 +34,7 @@ The WAF service can be enabled on the site creation page, or anytime after the s
 - **DDoS configuration:**  The StackPath WAF will look for patterns in the volume of incoming requests over a 10-second window, a 2-second window, and a 1-second window.  The number of requests allowed within each of these windows is governed by the *Global*, *Burst*, and *Sub-second* thresholds.  The Sub-second threshold is controlled by StackPath and is not modifiable.  Depending on the type of traffic increase, the WAF may respond with a challenge for the end-user to prove they are a real human, or the traffic may be simply blocked.  DDoS protection is always active when the WAF is enabled for a site, even if the WAF is configured for Monitor mode.  Because of the potential impact to customers, it is important to coordinate business events such as promotions with the Operations team so that these settings may be increased accordingly, as a sudden increase in traffic may inadvertently trigger the DDoS protection.
 ![DDoS configuration](../../assets/sp-waf-ddos-en.png)
 
-- **WAP & OWASP top threats**
-   - The StackPath WAF protects against a wide variety of common attack threats.  We recommend enabling all of these protections unless one or more of them interferes with your particular application.  The undesired options may be deactivated individually.  
+- **WAP & OWASP top threats:**  The StackPath WAF protects against a wide variety of common attacks and threats.  We recommend enabling all of these protections unless one or more of them interferes with your particular application.  The undesired options may be deactivated individually.  
 
 - **User agents:**  When enabled, this functionality looks at the HTTP `User-Agent` header in all requests.
    - **Block invalid user agents:** The WAF will deny requests with an unrecognized value in the `User-Agent` header, possibly indicating a fake browser or bot.
@@ -45,13 +44,11 @@ The WAF service can be enabled on the site creation page, or anytime after the s
 - **CSRF attacks:**  An attacker on a third site can trick unsuspecting users of a vulnerable application to make potentially damaging requests that the user is unaware of.  These are called Cross-Site Request Forgery (CSRF) attacks.  The WAF can protect against this by generating a token that is automatically added to forms served.  If the token is not present in the submitted form, that request will be blocked by the WAF.
 ![CSRF attacks](../../assets/sp-waf-csrf-en.png)
 
-- **Traffic sources**
-   - The StackPath WAF identifies sources for traffic that could potentially be malicious in nature.  We recommend looking at each of these sources of traffic, and evaluating whether legitimate traffic could originate from it.  If no legitimate traffic is foreseen, enable the option to block requests from that source.
+- **Traffic sources:**  The StackPath WAF identifies sources for traffic that could potentially be malicious in nature.  We recommend looking at each of these sources of traffic, and evaluating whether legitimate traffic could originate from it.  If no legitimate traffic is foreseen, enable the option to block requests from that source.
 
-- **Anti-automation and bot protection**
-   - Automated traffic, including bots, frequently exhibit certain characteristics that can give them away.  Requests that lack certain headers, those that fail to return cookies, and other behaviour can all be clues.  The WAF can look for these patterns and challenge or block traffic accordingly.  We recommend evaluating whether users of your application could match any of these criteria, then enabling protection against any that don't match your users' needs.
+- **Anti-automation and bot protection:**  Automated traffic, including bots, frequently exhibit certain characteristics that can give them away.  Requests that lack certain headers, those that fail to return cookies, and other behaviour can all be clues.  The WAF can look for these patterns and challenge or block traffic accordingly.  We recommend evaluating whether users of your application could match any of these criteria, then enabling protection against any that don't match your users' needs.
 
-- **Spam and abuse**: 
+- **Spam and abuse**:
    - Form submission validation
 
 - Behavioral WAF
@@ -61,11 +58,9 @@ The WAF service can be enabled on the site creation page, or anytime after the s
    - Repeated violations
    - Brute force protection
 
-- CMS protection
-   - Various settings
+- **CMS protection:**  The StackPath WAF offers special protection for administration pages for the most popular content management systems.  Administration of these systems may involve requests that resemble malicious activity by privileged users, but which are in fact completely legitimate.  To prevent these requests from being blocked, we recommend enabling the whitelist option appropriate for your CMS so that when an administrative user logs into the CMS, the WAF will recognize all requests on that session as legitimate.  Additionally, the WAF can whitelist requests coming from the origin, select *Whitelist origin's IP* if your CMS requires this for updates.
 
-- Allow known bots
-   - Various settings
+- **Allow known bots:**  For common bots and crawlers, the WAF can be configured to allow traffic or deny traffic based on the needs of your site.  This is critical for Search Engine Optimization as well as for security.  We recommend enabling only the bots that are relevant for your application, and disabling the rest.
 
 
 
@@ -108,3 +103,6 @@ https://support.stackpath.com/hc/en-us/articles/360037951331-Enable-WAF-on-an-Ex
 https://support.stackpath.com/hc/en-us/articles/360001082463-Learn-About-the-StackPath-WAF-
 https://support.stackpath.com/hc/en-us/articles/360001405226-Learn-and-Configure-WAF-for-Application-Layer-DDoS-Protection
 https://support.stackpath.com/hc/en-us/articles/360001447963 <- API endpoint in your app
+https://support.stackpath.com/hc/en-us/articles/360001083663-Using-the-StackPath-WAF-with-your-CMS-Recommended-steps
+https://support.stackpath.com/hc/en-us/articles/360001100146-StackPath-WAF-JavaScript-Injection-Explained
+https://support.stackpath.com/hc/en-us/articles/360031028112-Learn-Enable-and-Troubleshoot-WAF-Bot-Protection-
