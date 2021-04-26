@@ -58,18 +58,18 @@ A container in a StackPath workload may be reached using a standard SSH client t
 
 ### Enable remote management
 
-Remote management must be enabled for the desired workload.  If remote management is already enabled, skip to the next section, *BLA*.
+Remote management must be enabled for the desired workload.  If remote management is already enabled, skip to the next section, *Connect to the console*.
 
 1. Navigate to the StackPath environment containing the desired workload.
-1. Click on the workload to see its details.  The details screen will appear.
-1. Click on the *Settings* item on the left.  The settings screen will appear.
+1. Click on the workload to see its details.  The *Details* screen will appear.
+1. Click on the *Settings* item on the left.  The *Settings* screen will appear.
 1. Find the setting for *Remote management*.  Move the slider to the enabled position, if it is not already.
 ![Enable remote management](../../assets/sp-connect-enable-remote-mgt-en.png)
 
 ### Connect to the console
 
 1. Navigate to the StackPath environment containing the desired workload.
-1. Click on the workload to see its details.  The details screen will appear.
+1. Click on the workload to see its details.  The *Details* screen will appear.
 1. Click on the *Instance* item on the left.  A list of the instances deployed in the workload will appear.
 1. Identify the desired instance, and click on the three-dot menu on the far right of the row.
 1. Click on *Access console*.
