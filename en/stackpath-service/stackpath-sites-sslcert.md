@@ -35,6 +35,12 @@ If you already own a valid, signed SSL certificate for your site, it can be used
 
 ![Request certificate](../../assets/sp-sites-edgessl-requestcert-en.png)
 
+### Test a certificate
+
+The EdgeSSL configuration on your StackPath site can be tested by navigating to your delivery domain using `https://` in the URL.  If your browser displays your site with no warnings, and a green padlock icon appears next to the URL in the location bar, you have successfully configured SSL for your site.
+
+If you submitted your own certificate when configuring EdgeSSL, and did not receive any errors, but are not successfully connecting to your site with HTTPS, first verify that the Common Name (the `CN`, casually referred to as the domain name) for the certificate you uploaded matches the delivery domain of your site.  If they match, the next most common issue is the CA bundle.  Verify with your SSL signing authority that you have the most recent CA bundle (the set of intermediary SSL certificates that connect your signing authority with the global root Certifying Authorities).
+
 ### EdgeSSL options
 
 #### Minimum TLS version
@@ -45,7 +51,7 @@ TLS is the protocol that is used to establish SSL connections.  This option spec
 
 #### Force HTTPS
 
-This option will force all HTTP connections to redirect to your site using SSL.
+This option will force all HTTP connections to redirect to your site using SSL.  We recommend evaluating whether this is appropriate for your site.
 
 ![Force HTPS](../../assets/sp-sites-edgessl-forcessl-en.png)
 
