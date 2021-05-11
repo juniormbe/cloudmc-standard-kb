@@ -25,8 +25,13 @@ If you already own a valid, signed SSL certificate for your site, it can be used
 
 ### Request a certificate
 
-1. From the *EdgeSSL* screen, click on the button labeled *Request certificate*.  The *Request certificate* screen appears.
-1.
+1. From the *EdgeSSL* screen, click on the button labeled *Request certificate*.  The *Request free certificate* screen appears.
+1. The default delivery domain for your site will appear in the *Delivery domains* field.  Click the `+` button to add additional delivery domains to the SSL certificate.
+1. Select the method to validate the certificate:
+  - **DNS:** StackPath will validate your ownership of the domain by performing a DNS lookup against the delivery domain.  If the delivery domain is already configured to point to the StackPath edge address, the ownership condition will be satisfied.
+  - **HTTP:** StackPath will validate your ownership of the domain by connecting to the delivery domain and making an HTTP request.  If the request is served by a StackPath edge server, the ownership condition will be satisfied.
+ 1. Click *Submit*.  You will be returned to the *EdgeSSL* screen.
+ 1. The SSL certificate will be requested and installed.  When this is complete, it will be displayed on the *EdgeSSL* screen, as well as the delivery domain(s) that will be served with this certificate.
 
 ![Request certificate](../../assets/sp-sites-edgessl-requestcert-en.png)
 
@@ -34,9 +39,13 @@ If you already own a valid, signed SSL certificate for your site, it can be used
 
 #### Minimum TLS version
 
+TLS is the protocol that is used to establish SSL connections.  This option specifies the oldest version of TLS that will be allowed to connect to your StackPath site.  We recommend that you select TLS 1.2, unless you have a specific need for supporting older browsers.
+
 ![Minimum TLS version](../../assets/sp-sites-edgessl-mintls-en.png)
 
 #### Force HTTPS
+
+This option will force all HTTP connections to redirect to your site using SSL.
 
 ![Force HTPS](../../assets/sp-sites-edgessl-forcessl-en.png)
 
@@ -46,7 +55,3 @@ If you already own a valid, signed SSL certificate for your site, it can be used
 1. Click *Delete*.
 1. A confirmation dialogue box will appear.  Click *Submit* to confirm.
 1. The certificate will be deleted from the site.
-
-
-*Research:*
-https://support.stackpath.com/hc/en-us/articles/360047768392-Create-and-Manage-SSL-Certificates
