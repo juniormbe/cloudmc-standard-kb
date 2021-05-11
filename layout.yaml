@@ -57,6 +57,8 @@ categories:
       - stackpath-connect-to-instance-via-ssh.md
       - stackpath-sites-overview.md
       - stackpath-sites-cdn-features.md
+      - stackpath-sites-waf.md
+#      - stackpath-sites-scripts.md
 #      - stackpath-sites-how-to.md
 #      - stackpath-working-with-instances.md
 - category: object-storage-service
