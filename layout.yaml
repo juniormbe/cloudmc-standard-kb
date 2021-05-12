@@ -3,7 +3,6 @@ categories:
   icon: fa fa-info-circle
   articles:
       - cloud.ca-in-a-nutshell.md
-#      - 10-noteworthy-improvements-in-the-new-cloud-ca-portal.md
       - need-more-help.md
 - category: basic-concepts
   icon: fa fa-globe
@@ -57,10 +56,9 @@ categories:
       - stackpath-connect-to-instance-via-ssh.md
       - stackpath-sites-overview.md
       - stackpath-sites-cdn-features.md
+      - stackpath-sites-sslcert.md
       - stackpath-sites-waf.md
-#      - stackpath-sites-scripts.md
-#      - stackpath-sites-how-to.md
-#      - stackpath-working-with-instances.md
+      - stackpath-sites-scripts.md
 - category: object-storage-service
   icon: fa fa-hdd-o
   articles:
@@ -70,10 +68,6 @@ categories:
       - manage-my-objects-using-the-swift-command-line-client.md
       - manage-my-objects-using-the-object-storage-api.md
       - manage-my-objects-using-the-self-service-portal.md
-#- category: macrometa-service
-#  icon: fa fa-cloud
-#  articles:
-#     - macrometa-overview.md
 - category: reporting
   icon: fa fa-signal
   articles:
@@ -83,14 +77,12 @@ categories:
   icon: fa fa-wrench
   articles:
       - enable-two-factor-authentication.md
-#      - single-entrypoint.md
       - display-dates-in-your-preferred-time-zone.md
       - manage-users.md
       - rbac.md
       - rbac-use-cases-basic.md
       - rbac-use-cases-advanced.md
       - openid-connect.md
-#      - manage-kb.md
 - category: how-to
   icon: fa fa-question
   articles:
