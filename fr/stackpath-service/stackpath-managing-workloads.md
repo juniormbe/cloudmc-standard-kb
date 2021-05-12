@@ -45,8 +45,9 @@ Pour accéder aux charges de travail, accédez à votre environnement StackPath 
 
 1. Sélectionnez l'offre de calcul et de mémoire à allouer pour la charge de travail dans le menu contextuel intitulé *Spec*. L'offre sera uniforme pour toutes les VM ou conteneurs déployés dans tous les PoP pour cette charge de travail.
 1. Un volume de stockage supplémentaire peut être attaché à chaque instance ou conteneur:
-    - Entrez un chemin (tel que `/data`) dans le champ intitulé *Chemin de stockage persistant*. Au moment du déploiement, StackPath créera un disque et le chemin spécifié sera utilisé comme point de montage à l'intérieur de la machine virtuelle ou du conteneur.
-    - Sélectionnez la taille souhaitée pour le volume persistant à l'aide du curseur intitulé *Taille du stockage persistant*.
+    - Entrez un chemin (tel que `/data`) dans le champ intitulé *Chemin de montage*. Au moment du déploiement, StackPath créera un disque et le chemin spécifié sera utilisé comme point de montage à l'intérieur de la machine virtuelle ou du conteneur.
+    - Entrez la taille souhaitée pour le volume persistant à l'aide de la boîte de texte intitulée *Taille*.
+    - Si votre administrateur a activé plusieurs volumes persistants, un bouton intitulé *Ajouter* apparaîtra dans cette section. En cliquant sur ce bouton, un autre ensemble de boîtes de texte apparaîtra, dans lequel vous pourrez spécifier des volumes supplémentaires. Les chemins de montage **doivent être** uniques.
 
 #### Nom du déploiement et emplacements cibles
 

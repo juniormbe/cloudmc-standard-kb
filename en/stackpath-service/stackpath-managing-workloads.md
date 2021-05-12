@@ -45,8 +45,9 @@ To access workloads, navigate to your StackPath environment and click on the **W
 
 1. Select the compute and memory offering to be allocated for the workload from the popup menu labeled *Spec*.  The offering will be uniform for all VMs or containers deployed in all PoPs for this workload.
 1. An additional storage volume may be attached to each instance or container:
-   - Enter a path (such as `/data`) in the field labeled *Persistent storage path*.  At the time of deployment, StackPath will create a disk and the specified path will be used as the mountpoint inside the VM or container.
-   - Select the desired size for the persistent volume using the slider labeled *Persistent storage size*.
+   - Enter a path (such as `/data`) in the field labeled *Mount path*.  At the time of deployment, StackPath will create a disk and the specified path will be used as the mountpoint inside the VM or container.
+   - Enter the desired size for the persistent volume using the text box labeled *Size*.
+   - If your administrator has enabled multiple persistent volumes, a button labeled *Add* will appear in this section.  Clicking this button will cause another set of text boxes to appear, where you may specify additional volumes.  The mount paths **must** be unique.
 
 #### Deployment name and target locations
 

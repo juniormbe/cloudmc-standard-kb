@@ -26,7 +26,7 @@ Your end-user now clicks through to a second page.  This page also includes the 
 
 Following this example, site features allow administrators to configure the origin where assets are pulled from, the length of time to store them in the cache, how to determine the uniqueness of an asset, as well as many other behaviors.
 
-As you can see, there are many applications where a CDN can have a significant impact on performance.  You can put the CDN in front of you StackPath Workload, or even in front of object storage services such as S3.  The example above uses HTTPS, because StackPath allows you to upload your existing SSL certificate and private key to enable your site to support HTTPS connections.
+As you can see, there are many applications where a CDN can have a significant impact on performance.  You can put the CDN in front of your StackPath Workload, or even in front of object storage services such as S3.  The example above uses HTTPS, because StackPath allows you to upload your existing SSL certificate and private key to enable your site to support HTTPS connections.
 
 We recommend developing a strategy for your use of caching.  The above example had a mix of cacheable and non-cacheable content, and you can configure your site to optimize the settings for your content.  Also, it is vitally important to have your Web server at the origin be configured to serve your assets with the correct headers in order to cache those assets effectively.  Depending on your organization, both your development and operations teams may have interest in how your caching strategy will impact planning and deployments.
 
@@ -44,4 +44,5 @@ When the CDN needs to differentiate between assets that could be similar or iden
 #### Web Application Firewall (WAF)
 
 Controls the kinds of HTTP requests that can come in based on criteria such as headers and query parameters.
+
 -->
