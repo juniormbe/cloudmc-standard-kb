@@ -24,11 +24,11 @@ Navigate to the desired StackPath service, click on the desired environment, cli
 1. Click *Submit*.
 1. Your script will now be deployed to your site, and is accessible using the specified endpoint.
 
+![Add script](../../assets/sp-sites-scripts-echoserver-en.png)
+
 #### Test the script
 
 The specified endpoint will be combined with the site's hostname to form the URL that can be used to access the script.  For example, if the hostname of a site is `www.acme.com` and a script is uploaded with the route `echoserver`, that script will be accessible at `http://www.acme.com/echoserver`.  Test your script by navigating to that URL in a browser and verifying that the script returns the desired results.
-
-![Add script](../../assets/sp-sites-scripts-echoserver-en.png)
 
 ### Edit a script
 
