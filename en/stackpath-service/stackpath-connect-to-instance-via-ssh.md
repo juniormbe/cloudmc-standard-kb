@@ -3,7 +3,7 @@ title: "StackPath Service: Connect to VMs and containers"
 slug: stackpath-connect-to-vms-and-containers
 ---
 
-## Connecting to a VM
+## Connecting to a VM using SSH
 
 A virtual machine in a StackPath workload may be reached using a standard SSH client.
 
@@ -17,8 +17,8 @@ A virtual machine in a StackPath workload may be reached using a standard SSH cl
 
 1. Navigate to the StackPath environment containing the desired workload.
 1. Click on the workload to see its details.  The *Details* screen will appear.
-1. Click on the *Instances* item on the left.  A list of the instances deployed in the workload will appear.
-1. Identify the desired instance, and note its public IP address in the list.  Clicking directly on the IP address will copy it to your clipboard.
+1. Scroll down to find a list of the instances deployed in the workload.
+1. Identify the desired instance, and note its public IP address in the list.  Clicking on the clipboard icon to the right of the IP address will copy it to your clipboard.
 ![Instance public IP](../../assets/sp-connect-instance-public-ip-en.png)
 1. You are now ready to connect to the instance.  The procedure is different when using a standard Unix command line client (this includes macOS) versus a Windows SSH client.
 
@@ -52,30 +52,81 @@ This a generic procedure for using a Windows SSH client.  It may be necessary to
 | Debian | debian |
 | Ubuntu | ubuntu |
 
+## Connecting to a VM via the console
+
+A virtual machine in a StackPath workload may be reached via its console by using a standard SSH client to connect to the StackPath remote access proxy.
+
+Prior to connecting to the console for the first time, you will need to:
+1. Enable remote management
+1. Retrieve the password for your account
+1. Set that password on your user account.
+
+Once the password is set, you may then connect to the VM console.
+
+### Enable remote management
+
+Remote management must be enabled for the desired workload.  If remote management is already enabled, skip to the next section, *Connect to the VM console*.
+
+1. Navigate to the StackPath environment containing the desired workload.
+1. Click on the workload to see its details.  The *Details* screen will appear.
+1. Scroll down to find the setting for *Remote management*.  Move the slider to the enabled position, if it is not already.
+![Enable remote management](../../assets/sp-connect-enable-remote-mgt-en.png)
+
+### Retrieve the password for your account
+
+1. Navigate to the StackPath environment containing the desired workload.
+1. Click on the workload to see its details.  The *Details* screen will appear.
+1. Scroll down to find a list of the instances deployed in the workload.
+1. Identify the desired virtual machine, and click on the three-dot menu on the far right of the row.
+1. Click on *Access console*.  The *Access console* dialogue box appears.
+1. Select **Serial Console Connection**, then click *Submit*.
+1. A notification will appear, with two important items, an SSH command and a password.  The SSH command may be ignored for now.  Make note of the password on line 3.  (Clicking the clipboard icon to the right of the password will copy it to your clipboard.)
+![Notification](../../assets/sp-connect-notif-en.png)
+1. You can close the notification.
+
+### Set the password for your account
+
+When the virtual machine for your workload was created, StackPath added the public key that was specified on the *Add workload* page into the default account in the new virtual machine.  You will need the private key in order to SSH to the VM and set the password for console access.
+
+1. Follow the procedure in the section above, *Connecting to a VM using SSH*, to connect to the desired VM and get a root shell.
+1. At the root shell, execute the command `passwd <username>`, where `<username>` is the default username for the OS running on the virtual machine.
+1. When the `passwd` prompt appears, enter the StackPath password that you obtained above, followed by the `Enter` key.
+1. Re-enter the password to confirm, followed by the `Enter` key.
+1. You may now exit the root shell and close the SSH connection.
+
+### Connect to the VM console
+
+1. Navigate to the StackPath environment containing the desired workload.
+1. Click on the workload to see its details.  The *Details* screen will appear.
+1. Scroll down to find a list of the instances deployed in the workload.
+1. Identify the desired virtual machine, and click on the three-dot menu on the far right of the row.
+1. Click on *Access console*.  The *Access console* dialogue box appears.
+1. Select **Serial Console Connection**, then click *Submit*.
+1. A notification will appear, with two important items, an SSH command and a password.
+   - Click on the clipboard icons to the right of each item to copy the SSH command and the password into your clipboard.
+   - The SSH command is intended to be executed from a Unix command line, such as in the MacOS or Linux Terminal application.
+   - Windows users can use their preferred SSH client for Windows. Use the port number and hostname from the proffered SSH command.
+1. Once you have executed the SSH command and entered the password (or configured your Windows SSH client and opened the connection), you will have be prompted for your SteckPath password.  Enter it now, and hit the `Enter` key.
+1. A login prompt for the target virtual machine will now appear.  Enter the username and hit the `Enter` key.
+1. You will be asked for the password for this account.  Enter your StackPath password and hit the `Enter` key.
+1. A command prompt within the target virtual machine now appears.  If root privileges are required, use the command `sudo -i` to get a root shell.
+
 ## Connecting to a container
 
 A container in a StackPath workload may be reached using a standard SSH client to connect to the StackPath remote access proxy.
 
-### Enable remote management
+Remote management must be enabled for the desired workload.  If remote management has not been enabled, refer to the section above, *Enable remote management*.  If remote management is already enabled, skip to the next section, *Connect to the container console*.
 
-Remote management must be enabled for the desired workload.  If remote management is already enabled, skip to the next section, *Connect to the console*.
-
-1. Navigate to the StackPath environment containing the desired workload.
-1. Click on the workload to see its details.  The *Details* screen will appear.
-1. Click on the *Settings* item on the left.  The *Settings* screen will appear.
-1. Find the setting for *Remote management*.  Move the slider to the enabled position, if it is not already.
-![Enable remote management](../../assets/sp-connect-enable-remote-mgt-en.png)
-
-### Connect to the console
+### Connect to the container console
 
 1. Navigate to the StackPath environment containing the desired workload.
 1. Click on the workload to see its details.  The *Details* screen will appear.
-1. Click on the *Instance* item on the left.  A list of the instances deployed in the workload will appear.
-1. Identify the desired instance, and click on the three-dot menu on the far right of the row.
+1. Scroll down to find a list of the instances deployed in the workload.
+1. Identify the desired container, and click on the three-dot menu on the far right of the row.
 1. Click on *Access console*.
 1. The *Access console* dialog box will appear, and the command `/bin/bash` will be pre-populated in the **Command to run** text field.  Click *Submit*.
 1. A notification will appear, with two important items, an SSH command and a password.
    - Click on the clipboard icons to the right of each item to copy the SSH command and the password into your clipboard.
    - The SSH command is intended to be executed from a Unix command line, such as in the MacOS or Linux Terminal application.
-   - Windows users can use their preferred SSH client for Windows. Use the port number and hostname from the command, with `/bin/bash` as the remote command to execute.
+   - Windows users can use their preferred SSH client for Windows. Use the port number and hostname from the proffered SSH command, with `/bin/bash` as the remote command to execute.
 1. Once you have executed the SSH command and entered the password (or configured your Windows SSH client and opened the connection), you will have a command prompt within the target container.
