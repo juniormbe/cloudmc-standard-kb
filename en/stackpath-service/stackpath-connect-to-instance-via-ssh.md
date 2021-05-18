@@ -59,9 +59,9 @@ A virtual machine in a StackPath workload may be reached via its console by usin
 Prior to connecting to the console for the first time, you will need to:
 1. Enable remote management
 1. Retrieve the password for your account
-1. Set that password on your user account.
+1. Connect to the target VM via SSH and configure the password on your user account
 
-Once the password is set, you may then connect to the VM console.
+Once the password is set, you may then connect to the VM console.  The following procedure will guide you through these steps.
 
 ### Enable remote management
 
@@ -106,10 +106,14 @@ When the virtual machine for your workload was created, StackPath added the publ
    - Click on the clipboard icons to the right of each item to copy the SSH command and the password into your clipboard.
    - The SSH command is intended to be executed from a Unix command line, such as in the MacOS or Linux Terminal application.
    - Windows users can use their preferred SSH client for Windows. Use the port number and hostname from the proffered SSH command.
-1. Once you have executed the SSH command and entered the password (or configured your Windows SSH client and opened the connection), you will have be prompted for your SteckPath password.  Enter it now, and hit the `Enter` key.
+1. Once you have executed the SSH command and entered the password (or configured your Windows SSH client and opened the connection), you will have be prompted for your StackPath password.  Enter it now, and hit the `Enter` key.
 1. A login prompt for the target virtual machine will now appear.  Enter the username and hit the `Enter` key.
 1. You will be asked for the password for this account.  Enter your StackPath password and hit the `Enter` key.
 1. A command prompt within the target virtual machine now appears.  If root privileges are required, use the command `sudo -i` to get a root shell.
+
+### Post-configuration cleanup
+
+If direct access via SSH to the target virtual machine is not necessary, be sure to remove the network policy for TCP port 22 for this workload.
 
 ## Connecting to a container
 
