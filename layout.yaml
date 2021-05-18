@@ -53,7 +53,10 @@ categories:
   articles:
       - stackpath-overview-workloads.md
       - stackpath-managing-workloads.md
-      - stackpath-connect-to-instance-via-ssh.md
+      - stackpath-connect-to-vm-via-ssh.md
+      - stackpath-connect-to-vm-console.md
+      - stackpath-connect-to-container.md
+      - stackpath-enable-remote-mgt.md
       - stackpath-sites-overview.md
       - stackpath-sites-cdn-features.md
       - stackpath-sites-sslcert.md
