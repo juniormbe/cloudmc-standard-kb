@@ -1,17 +1,16 @@
 ---
-title: "StackPath Service: Connect to a VM using SSH"
+title: "StackPath Service: Connect to a workload VM using SSH"
 slug: stackpath-connect-to-vm-via-ssh
 ---
 
-## Connecting to a VM using SSH
 
-A virtual machine in a StackPath workload may be reached using a standard SSH client.
+A virtual machine deployed in a StackPath workload may be reached using a standard SSH client.  This procedure will guide you through the steps of identifying the IP address of your target VM and then connecting to the VM with an SSH client, using your private key.
 
 ### Prerequisites
 
-1. You must have the private key counterpart of the public key that was used when the VM was created.  The private key was generated with the public key, and is usually a file that begins with the string `-----BEGIN RSA PRIVATE KEY-----`.
-1. There must be an inbound network rule in *Network policies* for this workload, allowing TCP traffic originating from the IP that you are connecting from, on port 22.
+1. There must be an inbound network rule in *Network policies* for this workload, which allows TCP traffic originating from the IP that you are connecting from, on port 22.
 1. You must know the default username for the operating system running on the VM.  See *List of default usernames* below.
+1. To log into the VM, you must have the private key from the same key pair whose public key was used when the VM was created.  The private key is usually a file that begins with the string `-----BEGIN RSA PRIVATE KEY-----`.
 
 ### Identify the target IP address
 
@@ -51,3 +50,10 @@ This a generic procedure for using a Windows SSH client.  It may be necessary to
 | CentOS | centos |
 | Debian | debian |
 | Ubuntu | ubuntu |
+
+### Common errors
+
+The following are common errors that your SSH client may return when attempting to connect to your virtual machine.
+
+1. **Operation timed out:**  Check your *Network policies* page to verify that there is an inbound rule that allows TCP traffic on port 22, originating from the IP address that you are connecting from.
+1. **Permission denied:**  Verify that you are using the correct private SSH key that corresponds to the public SSH key that was used to create the target VM.
