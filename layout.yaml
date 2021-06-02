@@ -55,6 +55,9 @@ categories:
       - stackpath-managing-workloads.md
       - stackpath-connect-to-instance-via-ssh.md
       - stackpath-sites-overview.md
+      - stackpath-sites-cdn.md
+      - stackpath-sites-lifetimes-ttls.md
+      - stackpath-sites-cache-keys.md
       - stackpath-sites-cdn-features.md
       - stackpath-sites-sslcert.md
       - stackpath-sites-waf.md
