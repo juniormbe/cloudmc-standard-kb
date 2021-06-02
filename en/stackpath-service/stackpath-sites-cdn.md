@@ -4,7 +4,7 @@ slug: stackpath-sites-cdn
 ---
 
 
-As stated in the [overview](stackpath-sites-overview.md), a site bridges the delivery of content from the origin to the end-user.  The heavy work of getting that content to your users is performed by the CDN.  The CDN receives requests from your end-users, and fetches them from your origin server.  Following rules that you set, the CDN will store a site's assets in caches on the StackPath Edge servers.  The StackPath global network is then able to accelerate the delivery of the assets from the cache to users, enhancing performance and user experience.
+As stated in the [overview](stackpath-sites-overview.md), a StackPath *site* bridges the delivery of content from the origin to the end-user.  The heavy work of getting that content to your users is performed by the CDN.  The CDN receives requests from your end-users, and fetches them from your origin server.  Following rules that you set, the CDN will store a site's assets in caches on the StackPath Edge servers.  The StackPath global network is then able to accelerate the delivery of the assets from the cache to users, enhancing performance and user experience.
 
 When your site is properly configured, your end-users will access your application via the StackPath CDN without their knowing that there is an intermediary.  This is because the delivery domain will use a DNS record within your domain, rather than a StackPath domain.
 
