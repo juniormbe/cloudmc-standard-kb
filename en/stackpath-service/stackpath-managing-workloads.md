@@ -8,13 +8,13 @@ slug: stackpath-managing-workloads
 
 To create, modify, or delete a StackPath workload, an account with the *User* role must be a member of the environment which contains the workload, and also have the *Editor* or *Owner* environment role assigned.  An account with the *Administrator* role or higher may create, modify, or delete workloads in any environment.
 
-To access workloads, navigate to your StackPath environment and click on the **Workloads** tab.
+To access workloads, navigate to your StackPath environment. The **Edge compute** workspace tab should already be selected, with the *Workloads* page displayed below.
 
 ### Add a workload
 
 #### Basic attributes
 
-1. From the **Workloads** tab, click on the *Add workload* button.
+1. From the *Workloads* page, click on the *Add workload* button.
 1. Enter a name for the workload.
 1. Select the type of workload:
    - Virtual machine

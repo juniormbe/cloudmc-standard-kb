@@ -58,6 +58,9 @@ categories:
       - stackpath-connect-to-container.md
       - stackpath-enable-remote-mgt.md
       - stackpath-sites-overview.md
+      - stackpath-sites-cdn.md
+      - stackpath-sites-lifetimes-ttls.md
+      - stackpath-sites-cache-keys.md
       - stackpath-sites-cdn-features.md
       - stackpath-sites-sslcert.md
       - stackpath-sites-waf.md
