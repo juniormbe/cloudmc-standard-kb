@@ -42,6 +42,6 @@ Navigate to the desired environment and click on it.  The *Edge compute* page wi
 
 ### Deploying from a custom OS image
 
-To use a custom OS image when deploying a new virtual machine workload, follow the steps in the [Managing workloads](stackpath-managing-workload.md) knowledge base article.  When choosing OS image, click on the **Custom OS images** section and select the desired image from the list that appears.
+To use a custom OS image when deploying a new virtual machine workload, follow the steps in the [Managing workloads](stackpath-managing-workloads.md) knowledge base article.  When choosing OS image, click on the **Custom OS images** section and select the desired image from the list that appears.
 
 <!-- An image of the Custom OS image group will go here once I can take a nice screenshot. -->
