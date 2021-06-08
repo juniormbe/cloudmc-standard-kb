@@ -15,24 +15,39 @@ To access workloads, navigate to your StackPath environment. The **Edge compute*
 #### Basic attributes
 
 1. From the *Workloads* page, click on the *Add workload* button.
-1. Enter a name for the workload.
-1. Select the type of workload:
+1. The **Name** text field will be pre-populated with a name suggestion.  You may replace the suggested name with one of your own choosing.
+1. Select the desired type of workload (see [Overview of Workloads](stackpath-overview-workloads.md) for more information) from the pop-up menu labeled **Workload type**:
    - Virtual machine
    - Container
 
 #### Select image
 
-1. If the type of workload is **Virtual machine** (**VM**), select an operating system image from the popup list labeled **OS image**.
-1. If the type of workload is **Container**, enter into the text box labled **OS image** the URL from which the container image should be pulled.  The format of the URL should be `URL/imagename:tag`, where *tag* indicates the version to pull. If *tag* is omitted, `default` is assumed.  If credentials are required for the remote location, check the box labeled *Add image pull credentials*.  Fields for the credentials will appear.
+##### Virtual machine
+
+If the type of workload is **Virtual machine** (**VM**), a section with two groups for operating system images will appear:
+   - **OS image:**  Managed operating system images
+   - **Custom OS image:**  Operating system images that have been created from a StackPath virtual machine workload <!-- Add a link to the appropriate article once image creation has been added. -->
+   ![OS images](../../assets/sp-workloads-osimage-en.png)
+
+Select an operating system image from the appropriate group.  Click on the version number below the operating system's icon to see a pop-up list of the versions available for that OS.
+   ![OS images with versions](../../assets/sp-workloads-osimage-version-en.png)
+
+##### Container
+
+If the type of workload is **Container**, a text box labled **OS image** will appear.  You may enter into this text box the URL from which the container image should be pulled.  The format of the URL should be:
+```
+URL/imagename:tag
+```
+where *tag* indicates the version to pull. If *tag* is omitted, the tag `default` is assumed.  If credentials are required for the remote location, check the box labeled *Add image pull credentials*.  Fields will appear where you may enter the login credentials.
 
 #### Environment variables and network
 
+1. If an Anycast IP address is desired, mark the checkbox labeled *Add Anycast IP address*.  An Anycast IP address will be allocated at the time of deployment.
 1. If the type of workload is **Container**, environment variables may be defined and made accessible to the container.  These values are defined at runtime or during deployment, and are presented within the container as standard environment variables. <!-- The SP// docs seem to indicate that environment variables are available to both containers and to instances.  Also, how can multiple variables be defined in the Web UI? -->
    - **Environment variable key and value**:  Key value pairs are made available to all instances.  
    - **Secret environment variable key and value**: Same as environment variables but can be used to store credentials securely.
 1. Select the VPC to use for deploying the workload.
    - At this time, workloads are created only in the default VPC.
-1. If an Anycast IP address is desired, mark the checkbox labeled *Add Anycast IP address*.
 1. If the public ports that the application will need are known, they can be specified by checking the box labeled *Add public port*, and filling in the fields that appear.  StackPath will create the network policies on your behalf at the time of deployment.  These can be edited at any time after the workload is deployed.
 
 #### Initial startup configuration
