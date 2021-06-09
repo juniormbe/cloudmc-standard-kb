@@ -4,7 +4,7 @@ slug: stackpath-images
 ---
 
 
-StackPath workloads provide you with the flexibility to easily deploy new virtual machine workloads based on the VMs you have already created.  Any existing virtual machine can be used as the base from which a *custom OS image** can be created.  Custom OS images can be used to reduce deployment time by acting as a fully-configure master that requires miminal changes to be ready for service. Custom OS images can also be used to roll back should a deployment experience an error or other failure.
+StackPath workloads provide you with the flexibility to easily deploy new virtual machine workloads based on the VMs you have already created.  Any existing virtual machine can be used as the base from which a *custom OS image* can be created.  Custom OS images can be used to reduce deployment time by acting as a fully-configure master that requires miminal changes to be ready for service. Custom OS images can also be used to roll back should a deployment experience an error or other failure.
 
 An OS image is a copy of the root volume of a virtual machine.  It is stored on the StackPath compute nodes.  Please note that an image does not include any data volumes -- the image contains **only** the root volume of the original VM.
 
