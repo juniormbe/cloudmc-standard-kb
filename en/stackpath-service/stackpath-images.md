@@ -38,7 +38,11 @@ To access images, navigate to the desired StackPath environment.  The *Edge comp
 
 ### Listing custom images
 
-Navigate to the desired environment and click on it.  The *Edge compute* page will appear.  Click on the *Images* item on the left.  The *Images* screen will appear, listing all available images.  Custom OS images will appear at the bottom.  The names of custom images will appear in the format `environment/family:tag`.
+1. Navigate to the desired environment and click on the entry.  The *Edge compute* page will appear.
+1. Click on the *Images* item on the left.
+1. The *Images* screen will appear, listing all available images.
+   - The list is sorted with custom OS images at the bottom.  The names of custom images will appear in the format `environment/family:tag`.
+   - The filter buttons at the top of the page allow you to select which images to display.
 
 ### Deploying from a custom OS image
 
