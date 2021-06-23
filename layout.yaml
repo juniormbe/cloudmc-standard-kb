@@ -8,7 +8,6 @@ categories:
   icon: fa fa-globe
   featured: true
   articles:
-      - video.md
       - environments-to-organize-workloads-and-users.md
       - main-cloudmc-entities.md
       - what-is-a-vpc.md
