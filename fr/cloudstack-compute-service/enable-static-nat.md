@@ -42,15 +42,15 @@ Dans cet exemple, nous allons configurer un NAT statique pour notre instance `ac
 | 20 | Refuser tout autre trafic entrant | 0.0.0.0/0 | Refuser | TCP | Entrée | 1 | 65535 |
 
 1. Cliquez sur l'icône d'engrenage à droite de la section *Accès public*. L'écran *IPs publiques* apparaît.
-![Accès public sur l'onglet Résautique](../../assets/static-nat-public-access-fr.png)
-1. Cliquez sur *Acquérir une adresse IP*. Lorsque la boîte de dialogue de confirmation apparaît, cliquez sur *Valider*.
-![Acquérir une adresse IP publique](../../assets/static-nat-acquire-ip-address-fr.png)
-1. L'adresse IP publique (45.72.188.68) apparaît maintenant dans la liste. Cliquez sur le menu à trois points et sélectionnez *Activer le NAT statique*.
-![Activer le NAT statique](../../assets/static-nat-enable-fr.png)
-1. Sur l'écran *Activer le NAT statique*, sélectionnez l'instance cible (`acme-staging-web-01`), puis sélectionnez l'adresse IP privée cible souhaitée (10.210.69.62).
-![Sélectionner l'instance et l'adresse IP privée](../../assets/static-nat-select-instance-fr.png)
-1. Cliquez sur *Valider*. Lorsque l'écran *IPs publiques* apparaît, vous verrez que l'IP publique 45.72.188.68 est désormais étiquetée **Static NAT** :
-![Configuration NAT statique terminée](../../assets/static-nat-complete-fr.png)
+<!-- ![Accès public sur l'onglet Résautique](../../assets/static-nat-public-access-fr.png) -->
+2. Cliquez sur *Acquérir une adresse IP*. Lorsque la boîte de dialogue de confirmation apparaît, cliquez sur *Valider*.
+<!-- ![Acquérir une adresse IP publique](../../assets/static-nat-acquire-ip-address-fr.png) -->
+3. L'adresse IP publique (45.72.188.68) apparaît maintenant dans la liste. Cliquez sur le menu à trois points et sélectionnez *Activer le NAT statique*.
+<!-- ![Activer le NAT statique](../../assets/static-nat-enable-fr.png) -->
+4. Sur l'écran *Activer le NAT statique*, sélectionnez l'instance cible (`acme-staging-web-01`), puis sélectionnez l'adresse IP privée cible souhaitée (10.210.69.62).
+<!-- ![Sélectionner l'instance et l'adresse IP privée](../../assets/static-nat-select-instance-fr.png) -->
+5. Cliquez sur *Valider*. Lorsque l'écran *IPs publiques* apparaît, vous verrez que l'IP publique 45.72.188.68 est désormais étiquetée **Static NAT**.
+<!-- ![Configuration NAT statique terminée](../../assets/static-nat-complete-fr.png) -->
 
 
 ### Tester
@@ -63,5 +63,5 @@ Nous allons tester la connectivité via le NAT statique en utilisant les utilita
 `sudo tcpdump port 80`
 1. Sur votre poste de travail local, ouvrez une fenêtre de terminal et exécutez la commande suivante :
 `nc 45.72.188.68 80`
-1. Le `tcpdump` génère deux lignes qui indiquent que le trafic provenant de votre poste de travail arrive à votre instance via le NAT statique :
-![Résultats du tcpdump](../../assets/static-nat-tcpdump-en.png)
+1. Le `tcpdump` génère deux lignes qui indiquent que le trafic provenant de votre poste de travail arrive à votre instance via le NAT statique.
+<!-- ![Résultats du tcpdump](../../assets/static-nat-tcpdump-en.png) -->

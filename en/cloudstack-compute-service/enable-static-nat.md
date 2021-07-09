@@ -49,7 +49,7 @@ In this example we will set up static NAT for our `acme-staging-web-01` instance
 <!-- ![Enable static NAT](/assets/static-nat-enable-en.png) -->
 4. On the *Enable static NAT* screen, select the target instance (`acme-staging-web-01`), then select the desired target private IP address (10.210.69.62).
 <!-- ![Select instance and private IP](/assets/static-nat-select-instance-en.png) -->
-5. Click *Submit*.  When the *Public IPs* screen appears, you will see the public IP 45.72.188.68 is now labeled as **Static NAT**:
+5. Click *Submit*.  When the *Public IPs* screen appears, you will see the public IP 45.72.188.68 is now labeled as **Static NAT**.
 <!-- ![Static NAT configuration complete](/assets/static-nat-complete-en.png) -->
 
 
