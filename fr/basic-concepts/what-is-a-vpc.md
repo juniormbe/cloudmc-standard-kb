@@ -52,6 +52,8 @@ Considérez les items suivants lors de la création d’un VPC:
 - Un tier appartient à un seul VPC.
 - Lorsqu’un VPC est créé, une IP de “Source NAT” est allouée par défaut. Cette adresse est libérée lors de la destruction du VPC.
 - Une IP publique ne peut être utilisée que pour une seule tâche à la fois. Par exemple, si une adresse est utilisée pour le “Source NAT”, elle ne peut être utilisée pour la redirection de port.
+- Le **NAT statique** est un mappage un-à-un entre une adresse IP publique et une instance dans un VPC. Tout le trafic envoyé à l'IP publique sera envoyé à l'instance désignée, et tout le trafic de l'instance sera envoyé à partir de l'IP publique.
+- **La redirection de port** est un mappage d'un port sur une adresse IP publique vers un port sur une IP privée dans un VPC. Différents ports sur l'adresse IP publique peuvent être redirigé vers des ports sur des instances distinctes, tant que les instances se trouvent dans le même VPC. Tout le trafic des instances utilisera l'adresse IP NAT source du VPC pour le trafic de sortie.
 - Les instances ne peuvent qu’avoir une seule adresse IP, donc elles ne peuvent qu’être connectées sur un tier à la fois.
 - Le service de répartition de charge public ne peut s'appliquer qu'à un seul tier du VPC.
 - Si une adresse IP est assignée à un tier:
