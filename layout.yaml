@@ -31,6 +31,7 @@ categories:
       - configure-port-forwarding.md
       - securing-your-network.md
       - enable-static-nat.md
+      - import-iso.md
       - working-with-vpcs.md
       - working-with-cloudstack-compute-apis.md
       - working-with-snapshots.md
