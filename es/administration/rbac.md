@@ -7,7 +7,7 @@ slug: el-control-de-acceso-basado-en-roles
 El control de acceso en CloudMC se alcanza a través un modelo flexible y multi-occupante, que provee una manera simplificada de gestionar los permisos por todas partes du una jerarquía de organizaciones y entornos.  La funcionalidad del control de acceso basado en roles que viene con CloudMC permite un control preciso de los permisos que son otorgados a los usuarios.
 
 ## Definiciones
-- **Permiso:** Una autorización para ejecutar alguna tarea.  **Permisos del sistema** rigen el acceso a la funcionalidad en la consola de CloudMC, **permisos entornales** rigen el acceso a los recursos de un servicio.
+- **Permiso:** Una autorización para ejecutar alguna tarea.  **Permisos del sistema** rigen el acceso a la funcionalidad en la consola de CloudMC, **permisos de entorno** rigen el acceso a los recursos de un servicio.
 
 - **Rol de sistema:**  Una colección compuesta de permisos de sistema, dentro de una organización.  CloudMC viene con **roles fijos** que no pueden ser modificados, y **roles personalizados** pueden ser creados.  Generalmente, los roles de sistema se refieren simplemente como ≪roles≫.
 
@@ -17,9 +17,9 @@ El control de acceso en CloudMC se alcanza a través un modelo flexible y multi-
 
 - **Usuario:** Una cuenta usuaria es la manera que un individuo se connecta al portal de CloudMC.  Un usuario siempre está asignado un rol de sistema primario en la organización donde se creó la cuenta.  Un usuario puede ser asignado roles de sistema adicionales, y que pueden ser recorridos a una o más organizaciones.
 
-- **Entorno:** Una unidad lógica dentro de una organización, usada para apartar y agrupar recursos de una manera segura.  El acceso está controlar por una combinación de roles entornales y de controles de acceso del alcance.
+- **Entorno:** Una unidad lógica dentro de una organización, usada para apartar y agrupar recursos de una manera segura.  El acceso está controlar por una combinación de roles de entorno y de controles de acceso del alcance.
 
-- **Rol entornal:** Una colección compuesta de permisos entornales, que está asignada a los miembros de un entorno.
+- **Rol de entorno:** Una colección compuesta de permisos de entorno, que está asignada a los miembros de un entorno.
 
 ![user access control chart](/assets/rbac-roles-chart-es.png)
 
@@ -68,8 +68,8 @@ La página *Administración* -> *Roles* enumera los roles de sistema y todos rol
 
 ![add custom role page](/assets/rbac-add_custom_role-en.png)
 
-## Los roles entornales
-Para controlar el acceso a los recursos dentro de un entorno, CloudMC introduce el cocepto del *rol entornal*.  Al añadir un miembro nuevo an un entorno, hay que asignarle al usuario un rol entornal, que gobierna el nivel de acceso concedido al usuario adentro del entorno.  La mayoría de complementos proveen los siguientes roles entornales estándares:
+## Los roles de entorno
+Para controlar el acceso a los recursos dentro de un entorno, CloudMC introduce el cocepto del *rol de entorno*.  Al añadir un miembro nuevo an un entorno, hay que asignarle al usuario un rol de entorno, que gobierna el nivel de acceso concedido al usuario adentro del entorno.  La mayoría de complementos proveen los siguientes roles de entorno estándares:
 
 - **Espectador:**  Acceso solo-lectura al entorno.
 - **Editor:**  Puede modificar todas las características del entorno, pero no permite ni modificar los ajustes del entorno ni gestionar los usuarios.
@@ -87,7 +87,7 @@ Se pueden asignar roles adicionales a un usuario en irse a la página *Editar us
 
 ![additional roles page](/assets/rbac-additional_roles-en.png)
 
-Los roles entornales se asignan a un usuario al añadir un miembro a un entorno:
+Los roles de entorno se asignan a un usuario al añadir un miembro a un entorno:
 1. Navegar al servicio deseado.
 1. Hacer clic en el menú de tres puntos a la derecha del entorno deseado.
 1. Seleccionar *Administrar miembros*.
