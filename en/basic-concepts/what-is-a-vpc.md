@@ -6,7 +6,7 @@ slug: what-is-a-vpc
 
 A Virtual Private Cloud (VPC) is a logically isolated section in an environment, where you can build a multi-tier application architecture.
 
-Typically, in most of the public clouds on the market, you deploy your instances on what we like to call a "basic network". In other words, your instance and other tenants' instances are all connected on the same huge network.
+Typically, in most of the public clouds on the market, you deploy your instances on what we like to call a *basic network*. In other words, your instance and other tenants' instances are all connected on the same huge network.
 
 ![Basic network](/assets/what-is-a-vpc-1.png)
 
@@ -48,7 +48,7 @@ You can connect your VPC to:
 Consider the following when you create a VPC:
 
 - The maximum number of tiers you can create within a VPC is 4.
-- Each tier must have an unique CIDR in the VPC. The web interface enforces this requirement.
+- Each tier must have an unique CIDR in the VPC. The Web interface enforces this requirement.
 - A tier belongs to only one VPC.
 - When a VPC is created, by default, a Source NAT IP is allocated to it. The Source NAT IP is released only when the VPC is removed.
 - A public IP can be used for only one purpose at a time. If the IP is a Source NAT, it cannot be used for Static NAT or port forwarding.
