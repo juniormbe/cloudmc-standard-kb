@@ -4,7 +4,7 @@ slug: need-more-help
 ---
 
 
-You couldn't find what you were looking for in these help articles or you hit a snag? Be sure to let us know and we can help you with your request.  Simply go to the Help menu at the top of the page, and click on *Contact support*:
+You couldn't find what you were looking for in these help articles or you hit a snag? Be sure to let us know and we can help you with your request.  Simply go to the *Help center* menu at the top of the page, and click on *Contact support*:
 
 ![Help menu](../../assets/need-more-help-1-en.png)
 

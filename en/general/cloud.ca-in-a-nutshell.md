@@ -17,7 +17,7 @@ CloudMC is a cloud edge orchestration platform. It delivers scalable, secure, hi
 For innovation:
 
 - **Intuitive self-service portal with advanced RBAC** for team collaboration
-- **Environments-focused**, e.g., Dev, Test, QA, Staging, and Production
+- **Environments-focused**, for example, Dev, Test, QA, Staging, and Production
 - **Open-Source APIs** supporting DevOps automation and continuous delivery
 
 For transparency:
