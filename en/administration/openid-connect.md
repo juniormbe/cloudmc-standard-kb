@@ -56,12 +56,12 @@ To complete the integration with the identity provider, CloudMC will generate a 
 
 If desired, CloudMC can automatically create an account for an individual who is signing in with valid credentials from the external identity provider but who does not already have an account in CloudMC.
 
-This setting is applied at the organization level, allowing an organization to opt out of this feature.  The organization must have at least one [custom domain](../reseller/custom-domains.md) configured.  CloudMC will match domain name of the email address used to log in against the selected custom domain to determine the organization in which to create the end-user account.
+This setting is applied at the organization level, allowing an organization to opt out of this feature.  The organization must have at least one [custom domain](https://cloudops.github.io/cloudmc-docs/#/reseller/custom-domains) configured.  CloudMC will match domain name of the email address used to log in against the selected custom domain to determine the organization in which to create the end-user account.
 
 1. Click on *Organizations* in the sidebar.
 1. Locate the desired organization, and click on the three-dot *Action* menu on the far right of the entry.
 1. Select *Manage security*.
-1. The *Security* screen  will appear.  Click on the *Edit* button at the upper right of the page.
+1. The *Native authentication policy* screen will appear.  Click on the item labeled *OIDC*, then click the *Edit* button at the upper right of the page.
 1. Check the box titled **Allow automatic end-user account creation upon successful OIDC login**.  Two sections will appear, **Associated domains** and **Primary role**.
 1. Select one or more domains to enable automatic account creation.
 1. Select the role which automatically created accounts will be assigned.

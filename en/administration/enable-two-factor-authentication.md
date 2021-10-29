@@ -16,7 +16,7 @@ Refer to the application-specific documentation about how to install it on your 
 
 ### Turn on Two-Factor Authentication
 
-This is done by accessing your own user preference page. Click on your username on the top right of the application, and then My Profile.
+This is done by accessing your own user preference page. Click on your username on the top right of the application, and then *My Profile*.
 
 Look towards the bottom of the page, you will see a section about Two Factor Authentication. The workflow is very straightforward. First, click on the **Enable** button as show below.
 
@@ -34,8 +34,8 @@ Once you've clicked **Close**, you will your token each time you re-authenticate
 
 ### Regenerate your backup codes
 
-If for whatever reason you should lose your backup codes, your codes can be re-generated.  This is also done via the user preferences page.  Click on the button **Regenerate backup codes** in the **Security** section.  A dialog box with your new codes will appear so that you can take note or print them out.
+If for whatever reason you should lose your backup codes, your codes can be re-generated.  This is also done via the user preferences page.  Click on the button *Regenerate backup codes* in the **Security** section.  A dialog box with your new codes will appear so that you can take note or print them out.
 
 ### Deactivate Two-Factor Authentication
 
-If you wish to deactivate two-factor authentication on your account, go to **My profile** and under the **Security** section, click on **Disable two-factor authentication**.  You will be asked to enter your password.  Once this is done, you will be asked only for your username and password when authenticating yourself to CloudMC.
+If you wish to deactivate two-factor authentication on your account, go to *My profile* and under the *Security* section, click on *Disable two-factor authentication*.  You will be asked to enter your password.  Once this is done, you will be asked only for your username and password when authenticating yourself to CloudMC.

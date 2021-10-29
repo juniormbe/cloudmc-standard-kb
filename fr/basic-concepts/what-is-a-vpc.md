@@ -5,7 +5,7 @@ slug: qu-est-ce-qu-un-vpc
 
 Un nuage virtuel privé (VPC) est une section logiquement isolée dans un environnement où vous pouvez construire une architecture applicative multi-tiers.
 
-Typiquement, dans la plupart des nuages publiques sur le marché, vous déployez vos instances dans ce qu'on aime appeler un "réseau simple". Dans d'autres mots, vos instances ainsi que celles des autres clients sont connectées sur le même réseau.
+Typiquement, dans la plupart des nuages publiques sur le marché, vous déployez vos instances dans ce qu'on aime appeler un *réseau simple*. Dans d'autres mots, vos instances ainsi que celles des autres clients sont connectées sur le même réseau.
 
 ![Réseau simple](/assets/what-is-a-vpc-1.png)
 

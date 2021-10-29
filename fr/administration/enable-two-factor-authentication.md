@@ -16,7 +16,7 @@ Referez vous à la documentation de l'application pour connaître les détails d
 
 ### Activer l'authentification à deux facteurs
 
-Pour effectuer cette action, vous devez vous diriger dans votre page de préférence utilisateur en cliquant sur votre nom d'usager dans le coin supérieur droit de l'application. Vous verrez ensuite l'option **Mon profile**.
+Pour effectuer cette action, vous devez vous diriger dans votre page de préférence utilisateur en cliquant sur votre nom d'usager dans le coin supérieur droit de l'application. Vous verrez ensuite l'option *Mon profile*.
 
 Regardez vers le bas de la page, il existe une section Authentification à deux facteurs. Le processus de configuration est très simple. Premièrement, cliquez sur le bouton Activer comme dans l'image ci-bas.
 
@@ -34,8 +34,8 @@ Une fois que vous cliquerez sur **Fermer**, vous serez tenu de fournir votre jet
 
 ### Re-générer vos codes de secours
 
-Si pour une raison quelconque vous perdez vos codes de secours, nous avons la possibilité d'en re-générer des nouveaux. Ceci est également fait dans votre page de préférence usager. Cliquez sur le bouton **Générer des nouveaux codes** sous la section Authentification à Deux Facteurs. Une fenêtre contextuelle avec vos nouveaux codes apparaîtra pour que vous puissiez les prendre en note ou les imprimer.
+Si pour une raison quelconque vous perdez vos codes de secours, nous avons la possibilité d'en re-générer des nouveaux. Ceci est également fait dans votre page de préférence usager. Cliquez sur le bouton *Générer des nouveaux codes* sous la section Authentification à Deux Facteurs. Une fenêtre contextuelle avec vos nouveaux codes apparaîtra pour que vous puissiez les prendre en note ou les imprimer.
 
 ### Désactiver l'authentification à deux facteurs
 
-Si vous voulez désactivé l'authentification à deux facteurs sur votre compte, allez dans **Mon profil** et sous la section **Sécurité**, cliquez sur **Désactiver l'authentification à deux facteur**. Vous aurez à fournir votre mot de passe. Une fois fait, vous serez en mesure de vous authentifier à CloudMC avec seulement votre nom d'utilisateur et mot de passe.
+Si vous voulez désactivé l'authentification à deux facteurs sur votre compte, allez dans *Mon profil* et sous la section **Sécurité**, cliquez sur *Désactiver l'authentification à deux facteur*. Vous aurez à fournir votre mot de passe. Une fois fait, vous serez en mesure de vous authentifier à CloudMC avec seulement votre nom d'utilisateur et mot de passe.
