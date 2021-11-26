@@ -1,21 +1,21 @@
 ---
-title: "GCP: GKE overview"
-slug: gcp-gke-overview
+title: "GCP: Resumen de GKE"
+slug: gcp-resumen-de-gke
 ---
 
 
-If your Google Cloud Platform project has a Google Kubernetes Engine cluster configured, CloudMC will detect it automatically and allow you to view and manage various properties of the cluster.  At this time, CloudMC does not support creation of clusters in GKE.
+Si tu proyecto de Google Cloud Platform tiene un clúster de Google Kubernetes Engine configurado, CloudMC lo detectará automáticamente y te permitirá ver y administrar varias propiedades del clúster. En este momento, CloudMC no admite la creación de clústeres en GKE.
 
-To access your GKE resources, navigate to the desired GCP environment and click on the **Kubernetes engine** tab.
+Para acceder a tus recursos de GKE, navega hasta el entorno de GCP deseado y haz clic en la pestaña **Motor Kubernetes**.
 
-### Viewing details about a Kubernetes cluster
+### Visualización de las detalles sobre un clúster de Kubernetes
 
-In the **Kubernetes engine** tab, a list of available clusters will appear.  
+En la pestaña **Motor Kubernetes**, aparecerá una lista de clústeres disponibles.
 
-1. Click on the desired cluster.  This will take you to the *Cluster details* page.
-   - On the **Kubernetes engine** tab, clicking on an cluster's name or location will copy that data to your clipboard, and will *not* take you to the *Cluster details* page.
-1. On the *Cluster details* page, clicking on any string will copy it into your clipboard.
-1. Clicking on **Node Pools** will take you to the *Node pools* page, where you will find a summary of the node pools that have been depolyed in the cluster.
+1. Haz clic en el clúster deseado. Esto te llevará a la página *Detalles del clúster*.
+   - En la pestaña **Motor Kubernetes**, hacer clic en el nombre o en la ubicación de un clúster copiará esos datos en tu portapapeles y *no* te llevará a la página *Detalles del clúster*.
+1. En la página *Detalles del clúster*, al hacer clic en cualquier cadena se copiará en tu portapapeles.
+1. Al hacer clic en **Pools de nodos**, accederás a la página *Pools de nodos*, donde encontrarás un resumen de los pools de nodos que se han desplegado en el clúster.
 
 ### Creating and modifying workloads
 
