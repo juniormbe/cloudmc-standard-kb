@@ -25,7 +25,7 @@ To access instances, navigate to your GCP environment and click on the **Compute
 1. From the **Compute** tab, click on the instance.  This will take you to the *Instance details* page.
    - On the **Compute** tab, clicking on an instance's name or IP address will copy that data to your clipboard, and will *not* take you to the *Instance details* page.
 1. On the *Instance details* page, clicking on any string will copy it into your clipboard.
-1. Clicking on *Disks* will take you to the *Instance disks* page, where you can add, resize, detach, or delete disks on this instance. See [GCP: Working with disks](gcp-working-with-disks.md) for more information.
+1. Clicking on *Disks* will take you to the *Instance disks* page, where you can add, resize, detach, or delete disks on this instance. See [GCP: Working with disks and snapshots](gcp-working-with-disks.md) for more information.
 
 ### Stop a running instance
 
