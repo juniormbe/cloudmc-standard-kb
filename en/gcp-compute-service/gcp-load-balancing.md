@@ -42,7 +42,7 @@ If a backend service has already been defined, CloudMC enables the creation of a
 1. From the *Load balancers* page, click on the *Add load balancer* button.
 1. Enter a name for the load balancer, or accept the default.
 1. Select the backend service for this load balancer.
-1. Select how to allocate an external IP address.  See *Create a forwarding rule* in the **Manual configuration** section below for more details.
+1. Select how to allocate an external IP address.  See *Create a forwarding rule* in the **Manual configuration** section below for more details on allocating an external IP address.
 1. Select which protocol to listen on for incoming requests.
    - If HTTPS is selected, a list containing the uploaded SSL certificates will appear.  Select the appropriate certificate for this load balancer.
 1. Click *Submit*.
