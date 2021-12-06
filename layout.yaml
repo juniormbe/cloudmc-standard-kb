@@ -55,6 +55,7 @@ categories:
   articles:
       - stackpath-overview-workloads.md
       - stackpath-managing-workloads.md
+      - stackpath-create-a-workload.md
       - stackpath-images.md
       - stackpath-connect-to-vm-via-ssh.md
       - stackpath-connect-to-vm-console.md
