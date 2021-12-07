@@ -32,7 +32,9 @@ The StackPath service allows users to deploy containers and virtual machines to 
 
     Images from other registries may be used, as long as the URL conforms to the Docker format. The URL may be supplied with the image name in the format `URL:name:tag`.
 
-5.  Check the box for **Add image pull credentials**. Fields for entering credentials will appear. You may use the user name and password for your Dockerhub account, or the credentials for whichever image registry you have specified.
+5.  Check the box for **Add image pull credentials**.
+
+    Fields for entering credentials will appear. You may use the user name and password for your Dockerhub account, or the credentials for whichever image registry you have specified.
 
     **Note:** We recommend using your own credentials when pulling from Dockerhub. Although images can be pulled anonymously by leaving this box unchecked, rate limiting may be applied and could cause your deployment to fail.
 
