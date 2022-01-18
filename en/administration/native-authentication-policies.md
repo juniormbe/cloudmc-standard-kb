@@ -4,8 +4,6 @@ slug: native-authentication-policies
 ---
 
 
-# Native authentication policies
-
 ## Overview
 
 Resellers can control which domains can be used for native CloudMC user accounts, and also set certain minimum requirements for passwords. This feature is called a `native authentication policy`, and each organization can configure its own policy, or use the default policy. A sub-organization will inherit the policy of its parent, and it cannot be overridden.
