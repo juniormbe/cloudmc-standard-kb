@@ -1,3 +1,9 @@
+---
+title: "Native authentication policies"
+slug: native-authentication-policies
+---
+
+
 # Native authentication policies {#concept_y1f_txw_fsb .concept}
 
 ## Overview
