@@ -89,6 +89,7 @@ categories:
       - enable-two-factor-authentication.md
       - display-dates-in-your-preferred-time-zone.md
       - manage-users.md
+      - native-authentication-policies.md
       - rbac.md
       - rbac-use-cases-basic.md
       - rbac-use-cases-advanced.md
