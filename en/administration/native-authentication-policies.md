@@ -4,7 +4,7 @@ slug: native-authentication-policies
 ---
 
 
-# Native authentication policies {#concept_y1f_txw_fsb .concept}
+# Native authentication policies
 
 ## Overview
 
@@ -12,7 +12,7 @@ Resellers can control which domains can be used for native CloudMC user accounts
 
 To manage these features for a specific organization, navigate to **Administration** \> **Organizations**, click on the target organization, then navigate to **Authentication policies** \> **Native**.
 
-![](native-authentication-policy-en.png)
+![Screenshot of Native Authentication Policies page](/assets/native-authentication-policy-en.png)
 
 ## Denied domains
 
