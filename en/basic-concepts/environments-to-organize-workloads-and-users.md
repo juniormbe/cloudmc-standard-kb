@@ -3,7 +3,6 @@ title: "Using environments to organize users and workloads"
 slug: environments-to-organize-workloads-and-users
 ---
 
-#
 
 ### Environments overview
 
