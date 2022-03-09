@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Bump Escrow Version
 
 # Controls when the workflow will run
 on:
@@ -30,6 +30,9 @@ jobs:
           path: deposit_information.json
           property: DepositVersion
         id: getVersion
+
+      - name: Display current version
+        run: echo "Found version ${{steps.getVersion.outputs.prop}}"
       
       - uses: actions-ecosystem/action-bump-semver@v1
         id: bumpVersion
@@ -37,12 +40,15 @@ jobs:
           current_version: ${{steps.getVersion.outputs.prop}} 
           level: minor
 
+      - name: Display new version
+        run: echo "Bumped version ${{steps.bumpVersion.outputs.new_version}}"
+
       # Runs a single command using the runners shell
       - uses: 898anil/github-actions-json-edit@v0.2
         with: 
           file_path: deposit_information.json
           field_path: DepositVersion
-          field_value: '${{ steps.bump-semver.outputs.new_version }}'
+          field_value: '${{ steps.bumpVersion.outputs.new_version }}'
 
       # Runs a commit update
       - uses: zwaldowski/git-commit-action@v1
