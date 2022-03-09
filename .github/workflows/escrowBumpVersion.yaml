@@ -50,6 +50,16 @@ jobs:
           field_path: DepositVersion
           field_value: '${{ steps.bumpVersion.outputs.new_version }}'
 
+      - uses: ashley-taylor/read-json-property-action@v1.0
+        with:
+          path: deposit_information.json
+          property: DepositVersion
+        id: checkVersion
+
+      - name: Display current version
+        run: echo "checking if right version ${{steps.checkVersion.outputs.value}}"
+
+
       - uses: EndBug/add-and-commit@v8 # You can change this to use a specific version.
         with:
           add: 'deposit_information.json'
