@@ -50,8 +50,8 @@ jobs:
           field_path: DepositVersion
           field_value: '${{ steps.bumpVersion.outputs.new_version }}'
 
-      # Runs a commit update
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: EndBug/add-and-commit@v8 # You can change this to use a specific version.
         with:
-          commit_message: Bumped escrow to version ${{ steps.bumpVersion.outputs.new_version }}
-          file_pattern: deposit_information.json
+          add: 'deposit_information.json'
+          message: 'Bump escrow version to ${{ steps.bumpVersion.outputs.new_version }}'
+
