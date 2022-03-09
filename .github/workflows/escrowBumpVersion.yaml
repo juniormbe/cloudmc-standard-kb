@@ -49,3 +49,6 @@ jobs:
           file_path: deposit_information.json
           field_path: DepositVersion
           field_value: '${{ steps.bumpVersion.outputs.new_version }}'
+
+      # Runs a commit update
+      - uses: zwaldowski/git-commit-action@v1
