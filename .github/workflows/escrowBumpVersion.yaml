@@ -44,11 +44,11 @@ jobs:
         run: echo "Bumped version ${{steps.bumpVersion.outputs.new_version}}"
 
       # Runs a single command using the runners shell
-      - uses: 898anil/github-actions-json-edit@v0.2
-        with: 
-          file_path: deposit_information.json
-          field_path: DepositVersion
-          field_value: '${{ steps.bumpVersion.outputs.new_version }}'
+      - uses: jossef/action-set-json-field@v1
+        with:
+          file: deposit_information.json
+          field: DepositVersion
+          value: ${{ steps.bumpVersion.outputs.new_version }}
 
       - uses: ashley-taylor/read-json-property-action@v1.0
         with:
