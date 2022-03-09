@@ -32,12 +32,12 @@ jobs:
         id: getVersion
 
       - name: Display current version
-        run: echo "Found version ${{steps.getVersion.outputs.prop}}"
+        run: echo "Found version ${{steps.getVersion.outputs.value}}"
       
       - uses: actions-ecosystem/action-bump-semver@v1
         id: bumpVersion
         with:
-          current_version: ${{steps.getVersion.outputs.prop}} 
+          current_version: ${{steps.getVersion.outputs.value}}
           level: minor
 
       - name: Display new version
