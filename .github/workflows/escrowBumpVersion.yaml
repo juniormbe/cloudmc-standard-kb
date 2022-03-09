@@ -54,3 +54,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Bumped escrow to version ${{ steps.bumpVersion.outputs.new_version }}
+          file_pattern: deposit_information.json
