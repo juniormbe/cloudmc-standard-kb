@@ -88,6 +88,7 @@ categories:
   articles:
       - enable-two-factor-authentication.md
       - display-dates-in-your-preferred-time-zone.md
+      - branding.md
       - manage-users.md
       - native-authentication-policies.md
       - rbac.md
