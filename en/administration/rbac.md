@@ -72,7 +72,7 @@ The *Administration* -> *Roles* page lists system roles and any custom roles tha
 To control access to resources within an environment, CloudMC introduces the concept of the *environment role*.  When adding a new member to an environment, that user must be assigned an environment role, which governs the level of access this user will be granted within the environment.  Most plugins ship with these standard environment roles:
 
 - **Viewer:**  Read-only access to the environment.
-- **Editor:** Can modify all features of the environment, but cannot change the environment settings nor manage users.
+- **Editor:** Can read, write, and provision resources in the environment, but cannot change the environment settings nor manage users.
 - **Owner:** Adds the ability to change the environment settings and to manage users.
 
 ## How to assign roles
