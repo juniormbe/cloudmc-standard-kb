@@ -75,7 +75,7 @@ Pour contrôler l'accès aux ressources dans un environnement, CloudMC conçoit 
 - **Éditeur :**  Peut lire, écrire, et provisionner des ressources dans l'environnement, mais ne peut pas modifier les paramètres de l'environnment ni de gérer les utilisateurs.
 - **Propriétaire :**  Cela ajoute les fonctions de changer les paramètres de l'environnement et de gérer les utilisateurs.
 
-## Comment assigner le rôles
+## Comment assigner les rôles
 
 CloudMC permet à un utilisateur avec le rôle *Administrateur* et plus élevé (ou un utilisateur avec un rôle personnalisé incluyant la permission *Utilisateurs : Gérer*) à assigner des rôles fixes et personnalisés aux utilisateurs.  L'administrateur n'est pas permis à accorder une permission à un autre utilisateur sans déjà avoir cette même permission.  Ce modèle de sécurité empêche un utilisateur d'augmenter son propre accès sans autorisation (élévation des privilèges).
 
