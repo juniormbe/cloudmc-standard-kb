@@ -1,6 +1,6 @@
 ---
 title: "Contrôle d'accès à base de rôles"
-slug: controle-d-accès-a-base-de-roles
+slug: controle-d-acces-a-base-de-roles
 ---
 
 
@@ -72,10 +72,10 @@ Tous les rôles système et rôles personnalisés dans l'organisation sont énum
 Pour contrôler l'accès aux ressources dans un environnement, CloudMC conçoit le *rôle d'environnement*.  En ajouter un membre nouveau à un environnement, il faut assigner un rôle d'environnment à l'utilisateur, qui régit le niveau d'accès accordé à l'utilisateur à l'intérieur de l'environnement.  La plupart des modules d'extension sont livrés avec le rôles d'environnment standards celles-ci :
 
 - **Observateur :**  Accès en lecture seule à l'environnement.
-- **Éditeur :**  Peut modifier toutes les charactéristiques de l'environnement.  Pas capable ni de changer les paramètres de l'evironnment ni de gérer les utilisateurs.
+- **Éditeur :**  Peut lire, écrire, et provisionner des ressources dans l'environnement, mais ne peut pas modifier les paramètres de l'environnement ni de gérer les utilisateurs.
 - **Propriétaire :**  Cela ajoute les fonctions de changer les paramètres de l'environnement et de gérer les utilisateurs.
 
-## Comment assigner le rôles
+## Comment assigner les rôles
 
 CloudMC permet à un utilisateur avec le rôle *Administrateur* et plus élevé (ou un utilisateur avec un rôle personnalisé incluyant la permission *Utilisateurs : Gérer*) à assigner des rôles fixes et personnalisés aux utilisateurs.  L'administrateur n'est pas permis à accorder une permission à un autre utilisateur sans déjà avoir cette même permission.  Ce modèle de sécurité empêche un utilisateur d'augmenter son propre accès sans autorisation (élévation des privilèges).
 

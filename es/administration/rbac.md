@@ -72,7 +72,7 @@ La página *Administración* -> *Roles* enumera los roles de sistema y todos rol
 Para controlar el acceso a los recursos dentro de un entorno, CloudMC introduce el cocepto del *rol de entorno*.  Al añadir un miembro nuevo an un entorno, hay que asignarle al usuario un rol de entorno, que gobierna el nivel de acceso concedido al usuario adentro del entorno.  La mayoría de complementos proveen los siguientes roles de entorno estándares:
 
 - **Espectador:**  Acceso solo-lectura al entorno.
-- **Editor:**  Puede modificar todas las características del entorno, pero no permite ni modificar los ajustes del entorno ni gestionar los usuarios.
+- **Editor:**  Puede leer, escribir, y aprovisionar recursos dentro del entorno, pero no permite ni modificar los ajustes del entorno ni gestionar los usuarios.
 - **Propietario:**  Concede la habilidad de modificar los ajustos del entorno y tabmién a gestionar los usuarios.
 
 ## Cómo asignar los roles
