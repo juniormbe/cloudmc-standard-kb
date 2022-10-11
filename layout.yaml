@@ -69,6 +69,20 @@ categories:
       - stackpath-sites-sslcert.md
       - stackpath-sites-waf.md
       - stackpath-sites-scripts.md
+- category: aws-compute-service
+  icon: fa fa-cloud
+  articles:
+      - aws_service_overview.md
+      - aws-compute.md
+      - aws-instances.md
+      - aws-amis.md
+      - aws-volumes.md
+      - aws-networking.md
+      - aws-vpcs.md
+      - aws-subnetworks.md
+      - aws-add_a_vpc.md
+      - aws-add_a_subnetwork.md
+      - add_an_instance.md
 - category: object-storage-service
   icon: fa fa-hdd-o
   articles:
