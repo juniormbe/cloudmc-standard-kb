@@ -22,10 +22,10 @@ La page d'accueil CloudMC est la page par défaut qui s'affiche lorsqu'un utilis
 
 4.  **La barre de menu**
 
-   En haut de tous les écrans se trouve la barre de menus. Le côté droit de la barre de menus contient trois éléments : le menu d'aide, le menu des notifications et le menu utilisateur.
+    En haut de tous les écrans se trouve la barre de menus. Le côté droit de la barre de menus contient trois éléments : le menu d'aide, le menu des notifications et le menu utilisateur.
 
 5.  **Le gadget de réduction**
 
-   Cliquez sur le gadget de réduction pour minimiser la barre latérale. Cela rendra plus de place disponible pour l'espace de travail. Les éléments de la barre latérale seront toujours visibles via leurs icônes.
+    Cliquez sur le gadget de réduction pour minimiser la barre latérale. Cela rendra plus de place disponible pour l'espace de travail. Les éléments de la barre latérale seront toujours visibles via leurs icônes.
 
 
