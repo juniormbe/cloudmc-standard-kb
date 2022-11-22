@@ -1,9 +1,8 @@
 ---
-author: "Compute"
-publisher: aws-compute
+title: "Compute"
+slug: aws-compute
 ---
 
-# Compute
 
 ![A screenshot of the AWS Compute instances page, with numbered dots indicating features of interest](aws-compute-instancelist-numdots-en.png "List of AWS compute instances")
 

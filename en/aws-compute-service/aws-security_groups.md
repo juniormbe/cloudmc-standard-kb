@@ -1,9 +1,8 @@
 ---
-author: "Security groups"
-publisher: aws-security-groups
+title: "Security groups"
+slug: aws-security-groups
 ---
 
-# Security groups
 
 Security groups are sets of rule that provide control over network access to your resources in an AWS environment.
 
