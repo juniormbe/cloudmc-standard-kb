@@ -81,6 +81,7 @@ categories:
       - aws-networking.md
       - aws-vpcs.md
       - aws-subnetworks.md
+      - aws-security_groups.md
       - aws-add_a_vpc.md
       - aws-add_a_subnetwork.md
       - add_an_instance.md
