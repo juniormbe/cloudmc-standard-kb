@@ -28,23 +28,11 @@ This article will guide you through the process of adding a new instance to an A
 
     2.  Select the region where the instance is to be deployed.
 
-        The region selection will determine which subnetworks and volumes will be available to the new instance.
-
     3.  Select the image to use for deploying the instance.
-
-        An image may have different versions available. Click on the triangle beneath the name of the image to open a menu with the available versions.
 
     4.  Select the desired instance type from the **Instance Type** popup menu.
 
-        The AWS platform offers various tiers of compute resources by way of instance types. Each instance type is a bundle of various sizes of vCPU, memory, and a root storage volume. For more details, see [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) in the AWS documentation.
-
     5.  Select the desired minimum and maximum number of instances to have deployed.
-
-        Enter into the field labeled **Minimum \# of instances** how many instances AWS should initially create when the instance creation wizard is completed. Every instance will be created with the name entered into the **Name** field. All other configuration options will also be identical across all the instances.
-
-        Using auto scaling rules, you can define conditions under which the AWS system will automatically deploy additional instances, should your application require more compute resources. The added instances will have an identical name and configuration. AWS will create up to the maximum number of instances defined in the **Maximum \# of instances** field.
-
-        For convenience, this guide will continue to refer to the creation of a single instance, but if you choose to create more than one instance, the selected configuration will be applied to all instances equally.
 
     Click **Next** to continue.
 
@@ -52,29 +40,11 @@ This article will guide you through the process of adding a new instance to an A
 
     1.  Enter a name for the new SSH key pair into the **Key name** field, or accept the default.
 
-        The system will generate a new SSH key pair for logging into this instance. The private SSH key will be provided to you when the instance is created.
-
     2.  Define a new security group for the instance, or select a pre-defined set.
-
-        -   **Allow traffic from all sources**
-
-            The security group will allow ingress traffic from all IP addresses, for all protocols and port numbers.
-
-        -   **Enable traffic only for HTTP, HTTPS, and SSH**
-
-            This will create a security group which denies all ingress traffic except for TCP ports 22, 80, and 443. Enter a name and description for the groups, or accept the defaults.
-
-        -   **Configure a custom security group policy**
-
-            You can specify IP addresses, protocols, and port numbers to be allowed ingress. Enter a name and description for the security group, or accept the defaults, then enter the criteria for the group.
-
-        See [Security groups](aws-security_groups.md) for more details.
 
     Click **Next** to continue.
 
 5.  Configure the networking settings for the instance.
-
-    The choice of VPC and subnetwork will determine the availability zone for the instance. This impacts which volumes are available to attach to the new instance.
 
     1.  From the **VPC** popup menu, select the VPC where the instance will be created.
 
@@ -92,9 +62,9 @@ This article will guide you through the process of adding a new instance to an A
 
     3.  Enter the size for the volume in gigabytes \(GB\) into the **Size** field.
 
-    4.  Select the **Delete on termination** checkbox to automatically delete this volume when the instance is deleted.
+    4.  If needed, select the **Delete on termination** checkbox.
 
-    You can also add multiple volumes with the **Add** button. Pressing this button will cause an additional volume configuration section to appear. Enter the desired parameters accordingly. When adding multiple volumes, the device name must be unique for each volume. Click the **Remove** button to eliminate that volume from the list.
+    On this step, you can add multiple volumes with the **Add** button. Pressing this button will cause an additional volume configuration section to appear. Enter the desired parameters accordingly. When adding multiple volumes, the device name must be unique for each volume. Click the **Remove** button to eliminate that volume from the list.
 
     Click **Next** to continue.
 
@@ -116,19 +86,13 @@ This article will guide you through the process of adding a new instance to an A
 
 9.  Save the private SSH key provided in the notification.
 
-    The private SSH key is your only way to log into the instance. The key should be installed into the SSH application you will use to connect to the instance.
-
-    If you created multiple instances, you can use this private SSH key to connect to every instance.
-
-    **Important:** You must store the private SSH key immediately. It will not be stored anywhere, and it cannot be recovered once the notification is cleared from the panel. You cannot log into an instance without this key. If it is lost, you will have to follow a recovery procedure, which requires the restart of the instance.
-
     1.  Click the **Bell** icon to expand the notification panel.
 
     2.  Identify the notification for your instance by searching for the instance name.
 
     3.  Click the **Clipboard** icon to copy the full private SSH key into your clipboard.
 
-    4.  Store the private SSH key securely, and where it can be accessed when logging into the instance.
+    4.  Store the private SSH key securely.
 
 
 ## Results
