@@ -4,7 +4,7 @@ slug: aws-compute
 ---
 
 
-![A screenshot of the AWS Compute instances page, with numbered dots indicating features of interest](aws-compute-instancelist-numdots-en.png)
+![A screenshot of the AWS Compute instances page, with numbered dots indicating features of interest](/assets/aws-compute-instancelist-numdots-en.png)
 
 1.  **List of instances**
 
