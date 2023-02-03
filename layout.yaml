@@ -37,6 +37,8 @@ categories:
       - working-with-cloudstack-compute-apis.md
       - working-with-snapshots.md
       - working-with-instance-templates.md
+      - affinity_groups.md
+      - add_an_affinity_group.md
 - category: gcp-compute-service
   icon: fa fa-cloud
   articles:
