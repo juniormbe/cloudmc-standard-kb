@@ -12,7 +12,7 @@ An affinity group is a set of instances that are bound with an affinity rule. Af
 
 Affinity groups are listed and managed on the **Affinity groups** page of a CloudStack environment:
 
-![Screenshot of the Affinity groups page in a CloudStack environment](cs-affinity-groups-en.png "The Affinity groups page in a CloudStack environment with a single affinity group listed")
+![Screenshot of the Affinity groups page in a CloudStack environment](/assets/cs-affinity-groups-en.png "The Affinity groups page in a CloudStack environment with a single affinity group listed")
 
 Instances may be added to an affinity group:
 

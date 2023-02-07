@@ -12,7 +12,7 @@ Un groupe d'affinités est un ensemble d'instances liées par une règle d'affin
 
 Les groupes d'affinité sont répertoriés et gérés sur la page **Groupes d'affinité** d'un environnement CloudStack :
 
-![Capture d'écran de la page des groupes d'affinité dans un environnement CloudStack](cs-affinity-groups-en.png "La page des groupes d'affinité dans un environnement CloudStack avec un seul groupe d'affinité répertorié")
+![Capture d'écran de la page des groupes d'affinité dans un environnement CloudStack](/assets/cs-affinity-groups-en.png "La page des groupes d'affinité dans un environnement CloudStack avec un seul groupe d'affinité répertorié")
 
 Des instances peuvent être ajoutées à un groupe d'affinité :
 
