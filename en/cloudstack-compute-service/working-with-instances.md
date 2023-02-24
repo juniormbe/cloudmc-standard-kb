@@ -6,10 +6,9 @@ slug: working-with-instances
 <!-- Slight modifications to import from CCA KB -->
 
 ### Access an Instance's console
-Note: For this operation to be available, your user account needs to be assigned the **Environment Admin** or **User** role on the target environment.
+Note: For this operation to be available, your user account needs to be assigned the **Editor** or **Owner** role on the target environment.
 
-1. Go to the **Services** page.
-1. Select the appropriate compute environment on the left sidebar.
+1. From the sidebar, select the desired service connection and navigate to your environment.
 1. Select the **Instances** tab.
 1. In the target instance's **Action** menu, select the **View Console** option.
 
