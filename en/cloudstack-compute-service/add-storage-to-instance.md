@@ -13,7 +13,7 @@ The various CloudMC compute templates (e.g.: Ubuntu, CentOS) are deployed on a r
 To fulfill those use cases, you have the flexibility of adding one or multiple additional data volumes to an instance.
 
 ### Add additional volumes upon instance creation
-If you know in advance that you will need more capacity than the basic root volume provides, you can create and attach an additional data volume from the *Add virtual instance* page:
+If you know in advance that you will need more capacity than the basic root volume provides, you can create and attach an additional data volume from the *Add instance* page:
 
 ![Additional volume](/assets/secondary-volume-1-en.png)
 
@@ -60,7 +60,7 @@ The first step is to format the block device using your file system of choice (*
 [cca-user@web1 ~]$ sudo mkfs -t ext4 /dev/xvdb
 ```
 
-The next step is to create a [mount point](http://www.linfo.org/mount_point.html) for the new volume, "/data" in the following example:
+The next step is to create a [mount point](http://www.linfo.org/mount_point.html) for the new volume, `/data` in the following example:
 
 ```
 [cca-user@web1 ~]$ sudo mkdir /data
@@ -72,7 +72,7 @@ The third step is to [mount](http://www.linfo.org/mounting.html) the formatted b
 [cca-user@web1 ~]$ sudo mount /dev/xvdb /data
 ```
 
-At this point, /data can be used to store new files up to the capacity of the volume you created.
+At this point, `/data` can be used to store new files up to the capacity of the volume you created.
 
 An important point to note is that if your instance is restarted, your volume will not be automatically remounted. This can be achieved by adding a new line at the end of the [/etc/fstab](http://www.linfo.org/etc_fstab.html) file:
 
