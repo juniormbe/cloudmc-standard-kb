@@ -16,7 +16,7 @@ Pour que cette fonctionnalité soit opérationnelle, il faut que :
    - Vous avez installé un script personnalisé capable de manipuler les clés SSH correctement.
 
 ### Générer une clé SSH
-Nous prenons en considération que vous êtes sur un Linux ou un Mac. Pour Windows, il est possible de faire le processus équivalent en utilisant PuTTY. Toutefois, ce ne sera pas couvert par cet article.
+Nous prenons en considération que vous êtes sur Linux ou macOS. Pour Windows, il est possible de faire le processus équivalent en utilisant PuTTY. Toutefois, ce ne sera pas couvert par cet article.
 
 Premièrement, vérifiez si vous avez déjà une pair de clé sur votre ordinateur que vous pourriez utiliser. Ouvrez un terminal et tapez :
 

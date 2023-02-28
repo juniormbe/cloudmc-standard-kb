@@ -15,9 +15,9 @@ This feature will work properly only if:
    - You installed a custom made script capable of manipulating the SSH Keys.
 
 ### Generate a SSH Key
-We will assume you are on a Linux or Mac. For Windows, this can be achieved by using Putty, which will not be covered in this article.
+We will assume you are on Linux or macOS. For Windows, this can be achieved by using PuTTY, which will not be covered in this article.
 
-First, check to see if you have an existing SSH key-pair on your computer. On a Linux terminal type:
+First, check to see if you have an existing SSH key-pair on your computer. On a Linux terminal, type:
 
 ```
 ls -al ~/.ssh
