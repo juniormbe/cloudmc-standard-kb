@@ -28,7 +28,7 @@ In the following example, we will enable load balancing for HTTP (TCP port 80) o
 ![Add load balancer rule, basic info](/assets/load-balancing-4-en.png)
 1. Select the desired balancing algorithm, the protocol, and the stickiness method. In this example, we don't prescribe any stickiness policy and we load-balance TCP traffic:
 ![Add load balancer rule, policies](/assets/load-balancing-5-en.png)
-1. Click *Submit*.  The *Load balalcer rules* page will appear, and the new load balancer rulle will be listed:
+1. Click *Submit*.  The *Load balancer rules* page will appear, and the new load balancer rulle will be listed:
 ![Load balancer rule created](/assets/load-balancing-6-en.png)
 1. Click on the *Public IPs* link in the breadcrumb and validate that the displayed information reflects your newly created rule:
 ![List of public IP addresses](/assets/load-balancing-7-en.png)
