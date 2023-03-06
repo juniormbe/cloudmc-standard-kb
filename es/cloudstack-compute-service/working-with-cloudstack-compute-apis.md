@@ -1,6 +1,6 @@
 ---
 title: "Trabajar con las API de cómputo de CloudStack"
-slug: trabajar-con-la-api-de-cómputo-de-cloudstack
+slug: trabajar-con-la-api-de-computo-de-cloudstack
 ---
 
 

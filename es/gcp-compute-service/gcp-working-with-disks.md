@@ -1,6 +1,6 @@
 ---
 title: "GCP: Trabajar con discos e instantáneas"
-slug: gcp-trabajar-con-discos-e-instantáneas
+slug: gcp-trabajar-con-discos-e-instantaneas
 ---
 
 
