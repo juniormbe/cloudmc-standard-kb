@@ -8,7 +8,7 @@ Les utilisateurs de cloud.ca ont accès à un sous-ensemble des APIs de calcul d
 
 ### Accéder les API de calcul de CloudStack
 
-La documentation des API utilisateur de CloudStack est [disponible ici](http://cloudstack.apache.org/api/apidocs-4.7/TOC_User.html).
+La documentation des API utilisateur de CloudStack est [disponible ici](http://cloudstack.apache.org/api/apidocs-4.7/TOC_User.html) (*en anglais*).
 
 Vous pouvez utiliser ces APIs HTTP en [bâtissant manuellement](http://docs.cloudstack.apache.org/en/latest/dev.html#making-api-requests) et en [signant vos requêtes](http://docs.cloudstack.apache.org/en/latest/dev.html#signing-api-requests). Vous pouvez aussi utiliser une des nombreuses librairies existantes permettant d’accéder ces APIs avec le langage de programmation de votre choix.
 
