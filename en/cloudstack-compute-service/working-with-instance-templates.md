@@ -34,8 +34,8 @@ Then you simply need to fill the required fields:
 - **Description:** You can add some information about what your template is about.
 - **OS Type:** This is automatically populated based on the instance OS type. It is very unlikely you have to change this value.
 - **Options:** There are 3 options for your templates.
-   - *Supports SSH key association*: That means your template is loaded with cloud-init (or any personal script) that can handle SSH keys to be setup.
-   - *Supports password reset*: That means your template is loaded with cloud-init (or any personal script) that can reset the root password to something CloudMC generates on the first boot.
+   - *Supports SSH key association*: That means your template is loaded with *cloud-init* (or any personal script) that can handle SSH keys to be setup.
+   - *Supports password reset*: That means your template is loaded with *cloud-init* (or any personal script) that can reset the root password to something CloudMC generates on the first boot.
    - *Supports dynamic scaling*: That means your template is loaded with the XenServer tools, and can handle service offering scale-up without rebooting the VM. There are some limitations to this. You can scale-up once, and up to double CPU/RAM of the initial offering.
 
 Click *Done*.  You should see a user feedback stating the process began. This might take some time depending of the instance size. Once completed, you should see the new template listed in the template tab list and in the add instance wizard.
@@ -44,21 +44,21 @@ Click *Done*.  You should see a user feedback stating the process began. This mi
 
 CloudMC offers the possibility to import your own template made outside the platform. The process is describe in the following article.
 
-First, you have to click on the Import button. A new wizard window will open, like shown in the following screenshot.
+First, you have to click on the **Import** button. A new wizard window will open, like shown in the following screenshot.
 
 ![Import instance template](/assets/working-with-instance-templates-en-6.png)
 
-Fill out the required fields. Here is a quick description for each of the items :
+Fill out the required fields. Here is a quick description for each of the items:
 
 - **Name:** This is the name that will be shown in the template list or the instance creation wizard.
 - **Description:** You can add some information about what your template is about.
 - **URL:** You don't upload templates on CloudMC, CloudMC downloads it for you. You **have to provision an URL that is publicly accessible** and using one of these two protocols: **HTTP** or **FTP**. **Note:** HTTPS will not work.
 - **Hypervisor:** This will always be XenServer in our case, for now at least.
 - **Format:** This will always be VHD in our case, for now at least.
-- **OS:** Provide the OS Type of your template. For instance, if you have a Ubuntu 18.04 using PVHVM, you would select **Ubuntu 18.04 (64-bit)**. If you have a CentOS 7 using PV, you would use **CentOS 7**. See below for the popular OS matches.
+- **OS:** Provide the OS Type of your template. For instance, if you have a Ubuntu 22.04 using PVHVM, you would select **Ubuntu 22.04 (64-bit)**. If you have a CentOS 8 using PV, you would use **CentOS 8**. See below for popular OS matches.
 - **Options:** There are 3 options for your templates.
-   - *Supports SSH keys*: That means your template is loaded with cloud-init (or any personal script) that can handle SSH keys to be setup.
-   - *Supports password reset*: That means your template is loaded with cloud-init (or any personal script) that can reset the root password to something CloudMC generates on the first boot.
+   - *Supports SSH keys*: That means your template is loaded with *cloud-init* (or any personal script) that can handle SSH keys to be setup.
+   - *Supports password reset*: That means your template is loaded with *cloud-init* (or any personal script) that can reset the root password to something CloudMC generates on the first boot.
    - *Supports dynamic scaling*: That means your template is loaded with the XenServer tools, and can handle service offering scale-up without rebooting the VM. There are some limitations to this. You can scale-up once, and up to double CPU/RAM of the initial offering.
 
 ### OS Type Matching
