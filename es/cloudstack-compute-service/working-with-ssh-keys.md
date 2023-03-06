@@ -1,6 +1,6 @@
 ---
 title: "Gestión de claves SSH"
-slug: working-with-ssh-keys
+slug: gestion-de-claves-ssh
 ---
 
 
