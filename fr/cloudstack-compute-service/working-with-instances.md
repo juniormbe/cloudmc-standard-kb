@@ -5,10 +5,9 @@ slug: gestion-des-instances
 
 
 ### Accéder la console d'une instance
-Note: Cette opération est uniquement disponible si votre compte utilisateur possède le rôle **Environment Admin** ou **User** sur l'environnement cible.
+Note: Cette opération est uniquement disponible si votre compte utilisateur possède le rôle **Éditeur** ou **Propriétaire** sur l'environnement cible.
 
-1. Allez sur la page **Services**.
-1. Sélectionnez l'environnement désiré dans la barre de gauche.
+1. Dans la barre latérale, sélectionnez la connexion de service souhaitée et accédez à votre environnement.
 1. Sélectionnez l'onglet **Instances**.
 1. Dans le menu **Action** de l'instance cible, sélectionnnez l'option **Ouvrir console**.
 Note: Les opérations Couper / Copier / Coller ne sont pas disponibles dans cette console d'instance.

@@ -34,8 +34,8 @@ Ensuite, il faut simplement remplir le contenu des champs requis suivants :
 - **Description :** Vous pouvez ajouter plus d'informations dans ce champ.
 - **Système d'exploitation (OS) :** Ce champ est populé automatiquement basé sur le système d'exploitation de l'instance initiale. Il y a peu de chance que vous deviez changer cette valeur.
 - **Options :** Il y a 3 options pour votre modèle.
-   - *Supporte l'association d'une clé SSH* : Ceci veut dire que votre modèle est capable de manipuler les clé SSH avec un script personnalisé ou cloud-init.
-   - *Supporte la réinitialisation de mot de passe* : Ceci veut dire que votre modèle est capable de configurer le mot de passe de l'usager root avec un mot de passe généré par le système lors du premier démarrage. Là également, vous avez besoin d'un script ou de cloud-init pour que cela fonctionne.
+   - *Supporte l'association d'une clé SSH* : Ceci veut dire que votre modèle est capable de manipuler les clé SSH avec un script personnalisé ou *cloud-init*.
+   - *Supporte la réinitialisation de mot de passe* : Ceci veut dire que votre modèle est capable de configurer le mot de passe de l'usager root avec un mot de passe généré par le système lors du premier démarrage. Là également, vous avez besoin d'un script ou de *cloud-init* pour que cela fonctionne.
    - *Supporte l'extension dynamique* : Cela veut dire que votre modèle possède les outils XenServer et peut supporter un rehaussement de l'offre de service de calcul sans redémarrer votre instance. Il existe toutefois des limitations. Vous pouvez rehausser le niveau une seule fois et pouvez seulement doubler la capacité de CPU/mémoire basé sur l'offre de calcul initiale.
 
 Cliquez sur *Valider*. Vous devriez recevoir un message de confirmation que le processus est en cours. Encore une fois, ce processus peut prendre quelques minutes dépendent de la grandeur du disque de l'instance. Une fois complété, vous verrez votre modèle apparaître dans la liste sous la section **Images** ainsi que dans l'outil de création d'instance.
@@ -55,10 +55,10 @@ Il faut remplir le contenu des champs requis. Voici une description de chacun d'
 - **URL :** Vous ne téléverser pas des modèles vers CloudMC, CloudMC va le télécharger pour vous. Dans cette optique, vous devez fournir un **URL accessible publiquement** vers votre VHD en utilisant soit **HTTP** ou **FTP**. **Notez:** HTTPS ne fonctionnera pas.
 - **Hyperviseur :** Ceci sera toujours XenServer dans notre cas, du moins pour le moment.
 - **Format :** Ceci sera toujours VHD dans notre cas, du moins pour le moment.
-- **Système d'exploitation :** Fournir le type de système d'exploitation pour votre modèle. Par exemple, si vous avez installé Ubuntu 18.04 avec PVHVM, vous devrez selectionner **Ubuntu 18.04 (64-bit)**. Si vous avez installé CentOS 7 en PV, vous devrez utiliser **CentOS 7**. Une table est disponible plus bas pour facilité votre choix.
+- **Système d'exploitation :** Fournir le type de système d'exploitation pour votre modèle. Par exemple, si vous avez installé Ubuntu 22.04 avec PVHVM, vous devrez selectionner **Ubuntu 22.04 (64-bit)**. Si vous avez installé CentOS 78 en PV, vous devrez utiliser **CentOS 8**. Une table est disponible plus bas pour facilité votre choix.
 - **Options :** Il y a 3 options pour votre modèle.
-   - *Support l'association d'une clé SSH* : Ceci veut dire que votre modèle est capable de manipuler les clé SSH avec un script personnalisé ou cloud-init.
-   - *Supporte la réinitialisation de mot de passe* : Ceci veut dire que votre modèle est capable de configurer le mot de passe de l'usager root avec un mot de passe généré par le système lors du premier démarrage. Là également, vous avez besoin d'un script ou de cloud-init pour que cela fonctionne.
+   - *Support l'association d'une clé SSH* : Ceci veut dire que votre modèle est capable de manipuler les clé SSH avec un script personnalisé ou *cloud-init*.
+   - *Supporte la réinitialisation de mot de passe* : Ceci veut dire que votre modèle est capable de configurer le mot de passe de l'usager root avec un mot de passe généré par le système lors du premier démarrage. Là également, vous avez besoin d'un script ou de *cloud-init* pour que cela fonctionne.
    - *Supporte l'extension dynamique* : Cela veut dire que votre modèle possède les outils XenServer et peut supporter un rehaussement de l'offre de service de calcul sans redémarrer votre instance. Il existe toutefois des limitations. Vous pouvez rehausser le niveau une seule fois et pouvez seulement doubler la capacité de CPU/Mémoire basé sur l'offre de calcul initiale.
 
 ### Concordance des systèmes d'exploitation

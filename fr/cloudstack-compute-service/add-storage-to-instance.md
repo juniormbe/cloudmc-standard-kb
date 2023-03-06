@@ -13,7 +13,7 @@ Les divers modèles de calcul de CloudMC (ex.: Ubuntu, CentOS) sont déployés s
 Pour répondre à ces cas d'utilisation, vous avez la flexibilité d'ajouter un ou plusieurs volumes de données à vos instances.
 
 ### Ajout de volume secondaire à la création d'une instance
-Si vous savez déjà que le volume principal de base ne vous fournira pas la capacité dont vous avez besoin lors de la création d'une instance, vous pouvez créer et attacher un volume secondaire à partir de la page *Ajouter une instance virtuelle* :
+Si vous savez déjà que le volume principal de base ne vous fournira pas la capacité dont vous avez besoin lors de la création d'une instance, vous pouvez créer et attacher un volume secondaire à partir de la page *Ajouter une instance* :
 
 ![Volume secondaire](/assets/secondary-volume-1-fr.png)
 
@@ -61,7 +61,7 @@ La première étape est d'initialiser le périphérique de bloc, en utilisant le
 [cca-user@web1 ~]$ sudo mkfs -t ext4 /dev/xvdb
 ```
 
-L'étape suivante consiste à créer un [point de montage](https://fr.wikipedia.org/wiki/Point_de_montage) pour le nouveau volume, "/data" dans l'exemple suivant :
+L'étape suivante consiste à créer un [point de montage](https://fr.wikipedia.org/wiki/Point_de_montage) pour le nouveau volume, `/data` dans l'exemple suivant :
 
 ```
 [cca-user@web1 ~]$ sudo mkdir /data
@@ -73,7 +73,7 @@ La troisième étape est de monter le périphérique de bloc initialisé sur le 
 [cca-user@web1 ~]$ sudo mount /dev/xvdb /data
 ```
 
-À cette étape, /data peut maintenant être utilisé pour le stockage de fichier jusqu'à sa capacité maximale.
+À cette étape, `/data` peut maintenant être utilisé pour le stockage de fichier jusqu'à sa capacité maximale.
 
 Un point important à noter est que si votre instance est redémarrée, votre volume ne sera pas automatiquement remonté. Pour que ceci se fasse automatiquement, ajouter la ligne suivante à la fin du fichier [/etc/fstab](http://www.linfo.org/etc_fstab.html) :
 

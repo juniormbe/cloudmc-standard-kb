@@ -24,7 +24,7 @@ Les copies instantanées existantes sont accessibles en naviguer à l'environnem
       ![Prendre une copie instantanée de la page de l'instance](../../assets/working-with-snapshots-2-fr.png)
 1. Pour créer la copie instantanée, cliquez sur le menu *Action* à droite du volume, et sélectionnez *Prendre une copie instantanée*. La page *Prendre une copie instantanée* apparaîtra :
     ![La page Prendre une copie instantanée](../../assets/working-with-snapshots-3-fr.png)
-1. Vous pouvez choisir de fournir un nom pour la copie instantanée, ou si le champ est laissé vide, CloudMC générera automatiquement un nom. Vous pouvez également choisir d'en faire une **copie instantanée rapide**, voir ci-dessous pour plus de détails.
+1. Vous pouvez choisir de fournir un nom pour la copie instantanée, ou si le champ est laissé vide, CloudMC générera automatiquement un nom.
 1. Cliquez sur *Valider* pour créer la copie instantanée.
 1. L'onglet **Volumes** apparaîtra et le volume choisi pour la copie instantanée sera dans l'état **En cours de copie instantanée**.
 1. Cliquez sur l'onglet **Copies instantanés**. La nouvelle copie instantanée apparaîtra dans l'état **Sauvegarde en cours**. Lorsque la copie instantanée est terminée, elle apparaîtra dans l'état **Sauvegardé**.
@@ -35,7 +35,3 @@ Les copies instantanées existantes sont accessibles en naviguer à l'environnem
 1. Cliquez sur le menu **Action** à droite de la copie instantanée, puis cliquez sur *Supprimer*.
 1. Une boîte de dialogue apparaîtra demandant une confirmation. Cliquez sur *Valider*.
 1. La copie instantanée entrera dans l'état **Suppression**, et lorsque la suppression termine, la copie instantanée sera supprimée de l'onglet **Copies instantanées**.
-
-### Copies instantanées rapides
-
-Une **copie instantanée rapide** peut être créée en sélectionnant l'option *Copie instantanée rapide* lors de la création d'une copie instantanée. Les copies instantanées rapides apparaissent immédiatement sur la page **Copies instantanées** et sont marquées d'une coche dans la colonne **Rapide**. Dès qu'elle est disponible, une copie instantanée rapide peut être utilisée comme n'importe quel autre copie instantanée. À cause de qu'une copie instantanée rapide utilise des ressources supplémentaires, elle sera automatiquement archivée après 24 heures, après quoi elle devient une copie instantanée normale.

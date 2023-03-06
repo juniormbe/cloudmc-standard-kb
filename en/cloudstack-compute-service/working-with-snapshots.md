@@ -24,7 +24,7 @@ Existing snapshots can be accessed by navigating to the desired environment, and
      ![Take snapshot from instance page](../../assets/working-with-snapshots-2-en.png)
 1. To create the snapshot, click on the *Action* menu to the right of the volume, and select *Take snapshot*.  The *Take snapshot* page will appear:
    ![Take snapshot page](../../assets/working-with-snapshots-3-en.png)
-1. You can choose to provide a name for the snapshot, or if the field is left blank CloudMC will automatically generate a name.  You may also choose to make this a **rapid snapshot**, see below for more details.
+1. You can choose to provide a name for the snapshot, or if the field is left blank CloudMC will automatically generate a name.
 1. Click *Submit* to create the snapshot.
 1. The **Volumes** tab will appear, and the volume chosen for the snapshot will be in the  **Snapshot in progress** state.
 1. Click on the **Snapshots** tab.  The new snapshot will appear in the **In progress** state.  When the snapshot is complete, it will appear in the **Completed** state.
@@ -35,7 +35,3 @@ Existing snapshots can be accessed by navigating to the desired environment, and
 1. Click on the **Action** menu to the right of the snapshot, and click *Delete snapshot*.
 1. A dialogue box will appear asking for confirmation.  Click *Submit*.
 1. The snapshot will enter the **Destroying** state, and when the deletion is complete, the snapshot will be removed from the **Snapshots** tab.
-
-### Rapid snapshots
-
-A **rapid snapshot** can be created by selecting the *Rapid snapshot* option when creating a snapshot.  Rapid snapshots appear on the **Snapshots** page immediately and are marked with a checkmark in the **Rapid** column.  As soon as it is available, a rapid snapshot may be used as any other snapshot.  Because a rapid snapshot uses additional resources, it will be archived automatically after 24 hours, after which it becomes a regular snapshot.
