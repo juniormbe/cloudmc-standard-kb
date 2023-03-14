@@ -11,7 +11,6 @@ CloudMC provides the ability to connect securely from your home or office to you
 #### Enable VPN access
 Before you can connect to your VPC through a client VPN connection, you need to enable VPN access on the VPC.
 
-1. Go to the *Services* page.
 1. Select the appropriate compute environment.
 1. Select the *Networking* tab.
 1. From the target VPC's list item, click the *Remote Access VPN* button for the VPC that you want to enable VPN access.
