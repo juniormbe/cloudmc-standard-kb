@@ -12,7 +12,6 @@ CloudMC vous offre la possibilité de vous connecter de façon sécurisée depui
 #### Activation du VPN
 Avant de pouvoir vous connecter à votre VPC à travers une connexion VPN, vous devrez activer l'accès au VPN sur le VPC.
 
-1. Aller sur la page *Services*.
 1. Sélectionner l'environnement désiré.
 1. Sélectionner l'onglet *Réseautage*.
 1. Cliquer sur le bouton *Accès VPN à distance* du VPC cible dans la liste.
