@@ -12,7 +12,7 @@ First, you will need to install either the [generic OpenStack CLI](https://docs.
 
 To install the generic OpenStack CLI, you will need to install the package **python-openstackclient**. To install the Swift CLI, you will need to install the packages **python-keystoneclient** and **python-swiftclient**.
 
-After this, you'll need to configure the environment variables to allow the connection to be established with any of your desired object-storage environments. You can retrieve your credentials by following the instructions on this page: [How to obtain Object Storage API credentials?](how-to-obtain-object-storage-api-credentials.md) Use the section **Credentials for Object Storage using Keystone v3 (default)**.
+After this, you'll need to configure the environment variables to allow the connection to be established with any of your desired object-storage environments. You can retrieve your credentials by following the instructions on this page: [How to obtain Object Storage API credentials?](../how-to/how-to-obtain-object-storage-api-credentials.md) Use the section **Credentials for Object Storage using Keystone v3 (default)**.
 
 If you have multiple swift environments to manage using the Swift command-line, create a shell script for each containing the appropriate credentials info, and execute those scripts using the [source command](http://bash.cyberciti.biz/guide/Source_command).
 

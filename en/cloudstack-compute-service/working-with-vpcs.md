@@ -53,7 +53,7 @@ For more information about VPCs, please see [What is a VPC](../cloudstack-comput
 
 ### Site-to-Site VPN
 
-Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote office to a VPC, or another cloud provider to a VPC.  An example site-to-site VPN can be found in the how-to article [Create a site-to-site VPN on a VPC](../how-to/create-site-to-site-vpn-on-vpc.md).
+Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote office to a VPC, or another cloud provider to a VPC.  An example site-to-site VPN can be found in the how-to article [Create a site-to-site VPN on a VPC](../cloudstack-compute-service/create-site-to-site-vpn-on-vpc.md).
 
 1. From the target VPC, find the **Site-to-Site VPNs** item and click the gear menu.
    ![Site-to-site VPN page](/assets/working-with-vpcs-6-en.png)

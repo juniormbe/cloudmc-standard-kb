@@ -53,7 +53,7 @@ Para obtener más información sobre las VPC, consulte [Qué es una VPC](../clou
 
 ### VPN de sitio a sitio
 
-Las VPN de sitio a sitio ofrecen la capacidad de interconectar varias VPC, una oficina remota a una VPC u otro proveedor de nube a una VPC. Puedes encontrar un ejemplo de VPN de sitio a sitio en el artículo de procedimientos [Crear una VPN de sitio a sitio en una VPC](../how-to/create-site-to-site-vpn-on-vpc.md).
+Las VPN de sitio a sitio ofrecen la capacidad de interconectar varias VPC, una oficina remota a una VPC u otro proveedor de nube a una VPC. Puedes encontrar un ejemplo de VPN de sitio a sitio en el artículo de procedimientos [Crear una VPN de sitio a sitio en una VPC](../cloudstack-compute-service/create-site-to-site-vpn-on-vpc.md).
 
 1. En la VPC de destino, busca el elemento **VPN de sitio a sitio** y haz clic en el menú de ajustes.
    ![La página de VPN de sitio a sitio](/assets/working-with-vpcs-6-en.png)
