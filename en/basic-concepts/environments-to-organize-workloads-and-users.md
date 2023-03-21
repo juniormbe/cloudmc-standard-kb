@@ -38,7 +38,7 @@ Any user with the **User** role, or any other role which has the *Environments: 
 
 <!-- This needs to be moved to a CloudStack article: Here, you may:
    - Configure an isolated network with no access to any other subnet, nor to the public Internet
-   - Configure one, two, or three VPCs.  See [What is a VPC](what-is-a-vpc.md) for more information on VPCs
+   - Configure one, two, or three VPCs.  See [What is a VPC](../cloudstack-compute-service/what-is-a-vpc.md) for more information on VPCs
    - Configure no network (click *Skip* to finish creating the environment)
 1. If you've chosen to create one or more networks, enter the requested parameters for the networks to be created.
 1. Click *Initialize*.

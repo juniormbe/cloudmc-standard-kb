@@ -49,7 +49,7 @@ Cette procédure est divisée en deux sections :
 
 ### Configuration
 
-Dans cet exemple, nous allons importer une image ISO dans notre environnement `env-staging` dans le service `Compute - Québec`, et utiliser l'image résultante pour déployer une nouvelle instance. L'exemple commence sur l'onglet **Images** de notre environnement et suppose que le fichier image ISO a été stocké sur un service tel que le [stockage objet](../basic-concepts/what-is-object-storage.md).
+Dans cet exemple, nous allons importer une image ISO dans notre environnement `env-staging` dans le service `Compute - Québec`, et utiliser l'image résultante pour déployer une nouvelle instance. L'exemple commence sur l'onglet **Images** de notre environnement et suppose que le fichier image ISO a été stocké sur un service tel que le [stockage objet](../object-storage-service/what-is-object-storage.md).
 
 #### Importer l'image ISO
 
