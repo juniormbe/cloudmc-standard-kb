@@ -4,7 +4,7 @@ slug: activar-nat-estatico
 ---
 
 
-Este artículo te guiará a través de los pasos para configurar NAT estática para una instancia en tu entorno. Activar NAT estática para una instancia creará una asignación uno a uno desde una dirección IP pública a esa instancia. Debes estar familiarizado con [conceptos de redes](../basic-concepts/what-is-a-vpc.md) como la traducción de direcciones de red (NAT), la NAT estática, el reenvío de puertos y las listas de control de acceso (ACL).
+Este artículo te guiará a través de los pasos para configurar NAT estática para una instancia en tu entorno. Activar NAT estática para una instancia creará una asignación uno a uno desde una dirección IP pública a esa instancia. Debes estar familiarizado con [conceptos de redes](../cloudstack-compute-service/what-is-a-vpc.md) como la traducción de direcciones de red (NAT), la NAT estática, el reenvío de puertos y las listas de control de acceso (ACL).
 
 ## Prerrequisitos
 

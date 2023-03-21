@@ -36,7 +36,7 @@ Tout utilisateur ayant le rôle **Utilisateur**, ou toute autre rôle disposant 
 1. Cliquez sur *Appliquer* pour valider les membres sélectionnés. Les utilisateurs seront ajoutés.
 1. Pour certains services, la page *Initialiser l'environnement* apparaîtra pendant un moment. Les éléments de cette page sont spécifiques au service sur lequel l'environnement est créé.  Vous pouvez cliquer sur *Sauter* et de configurer l'environnement plus tard. <!-- Il faut déplace cela à une article pour CloudStack : Ici, vous pouvez :
     - Configurer un réseau isolé sans accès à aucun autre sous-réseau, ni à l'Internet public
-    - Configurer un, deux ou trois VPCs. Voir [Qu'est-ce qu'un VPC](what-is-a-vpc.md) pour plus d'informations sur les VPC
+    - Configurer un, deux ou trois VPCs. Voir [Qu'est-ce qu'un VPC](../cloudstack-compute-service/what-is-a-vpc.md) pour plus d'informations sur les VPC
     - Ne configurer aucun réseau (cliquez sur *Sauter* pour terminer la création de l'environnement)
 1. Si vous avez choisi de créer un ou plusieurs réseaux, entrez les paramètres demandés pour les réseaux à créer.
 1. Cliquez sur *Initialiser*.

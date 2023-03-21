@@ -4,7 +4,7 @@ slug: activer-le-nat-statique
 ---
 
 
-Cet article vous guidera à travers les étapes de configuration du NAT statique pour une instance dans votre environnement.  L'activation du NAT statique pour une instance créera un mappage un-à-un à partir d'une adresse IP publique vers cette instance.  Vous devez être familiarisé avec les [concepts réseautiques](../basic-concepts/what-is-a-vpc.md) tels que la traduction d'adresses réseau (NAT), la redirection de port et les listes de contrôle d'accès (ACL).
+Cet article vous guidera à travers les étapes de configuration du NAT statique pour une instance dans votre environnement.  L'activation du NAT statique pour une instance créera un mappage un-à-un à partir d'une adresse IP publique vers cette instance.  Vous devez être familiarisé avec les [concepts réseautiques](../cloudstack-compute-service/what-is-a-vpc.md) tels que la traduction d'adresses réseau (NAT), la redirection de port et les listes de contrôle d'accès (ACL).
 
 ## Prérequis
 

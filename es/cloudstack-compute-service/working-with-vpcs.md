@@ -11,7 +11,7 @@ slug: gestion-de-vpc
 
 Para crear, modificar o eliminar una VPC, una cuenta con el rol *Usuario* debe ser miembro del entorno que contiene la VPC y también tener asignado el rol de entorno *Editor* o *Propietario*. Una cuenta con el rol *Administrador* o superior puede crear, modificar o eliminar VPC en un entorno.
 
-Para obtener más información sobre las VPC, consulte [Qué es una VPC](../basic-concepts/what-is-a-vpc.md).
+Para obtener más información sobre las VPC, consulte [Qué es una VPC](../cloudstack-compute-service/what-is-a-vpc.md).
 
 ### Crear una nueva VPC
 

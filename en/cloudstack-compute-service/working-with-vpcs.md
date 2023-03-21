@@ -11,7 +11,7 @@ slug: working-with-vpcs
 
 To create, modify, or delete a VPC, an account with the *User* role must be a member of the environment which contains the VPC, and also have the *Editor* or *Owner* environment role assigned.  An account with the *Administrator* role or higher may create, modify, or delete VPCs in an environment.
 
-For more information about VPCs, please see [What is a VPC](../basic-concepts/what-is-a-vpc.md).
+For more information about VPCs, please see [What is a VPC](../cloudstack-compute-service/what-is-a-vpc.md).
 
 ### Create a new VPC
 
