@@ -26,6 +26,11 @@ categories:
       - working-with-instance-templates.md
       - affinity_groups.md
       - add_an_affinity_group.md
+      - create-site-to-site-vpn-on-vpc.md
+      - install-and-config-cloudmonkey.md
+      - kernel-upgrade-on-ubuntu-debian.md
+      - move-instance-to-different-vpc.md
+      - force-reboot-an-instance.md
 - category: gcp-compute-service
   icon: fa fa-cloud
   articles:
@@ -83,7 +88,6 @@ categories:
       - what-is-object-storage.md
       - object-storage-terminology.md
       - use-s3-api-for-object-storage.md
-      - how-to-obtain-object-storage-api-credentials.md
       - manage-my-objects-using-the-swift-command-line-client.md
       - manage-my-objects-using-the-object-storage-api.md
       - manage-my-objects-using-the-self-service-portal.md
@@ -95,7 +99,6 @@ categories:
   icon: fa fa-wrench
   articles:
       - enable-two-factor-authentication.md
-      - display-dates-in-your-preferred-time-zone.md
       - branding.md
       - manage-users.md
       - native-authentication-policies.md
@@ -106,12 +109,9 @@ categories:
 - category: how-to
   icon: fa fa-question
   articles:
-      - create-site-to-site-vpn-on-vpc.md
+      - display-dates-in-your-preferred-time-zone.md
       - how-to-cloudmc-api-key.md
-      - install-and-config-cloudmonkey.md
-      - kernel-upgrade-on-ubuntu-debian.md
-      - move-instance-to-different-vpc.md
-      - force-reboot-an-instance.md
+      - how-to-obtain-object-storage-api-credentials.md
 - category: automation
   icon: fa fa-retweet
   articles:
