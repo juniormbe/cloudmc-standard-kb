@@ -1,18 +1,15 @@
 categories:
-- category: general
-  icon: fa fa-info-circle
-  articles:
-      - cloud.ca-in-a-nutshell.md
-      - general-cloudmc_home_page.md
-      - need-more-help.md
 - category: basic-concepts
   icon: fa fa-globe
   featured: true
   articles:
-      - environments-to-organize-workloads-and-users.md
+      - cloud.ca-in-a-nutshell.md
+      - general-cloudmc_home_page.md
       - main-cloudmc-entities.md
+      - environments-to-organize-workloads-and-users.md
       - what-is-a-vpc.md
       - what-is-object-storage.md
+      - need-more-help.md
 - category: cloudstack-compute-service
   icon: fa fa-cloud
   articles:
