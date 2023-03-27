@@ -36,7 +36,7 @@ L'exemple suivant illustre comment à connecter deux VPCs avec un site-à-site V
     - **Forcer l'encapsulation pour NAT :** Désactivé
     - **Connexion passive (si le réseau distant n'est pas configuré):** activée
 1. Cliquer *Valider*.
-1. Aller à l'environnement **env-gestion** et répéter les étapes 2 à 4.
+1. Aller à l'environnement **env-gest** et répéter les étapes 2 à 4.
 1. Saisir les détails du tunnel de **gestion** vers **dmz**:
    - **Nom de la connexion :** tunnel-vers-dmz
    - **Adresse IP distant (si un autre VPC, saisir Source NAT) :** 172.30.200.106
