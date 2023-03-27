@@ -111,7 +111,7 @@ categories:
   articles:
       - display-dates-in-your-preferred-time-zone.md
       - how-to-cloudmc-api-key.md
-      - how-to-obtain-object-storage-api-credentials.md
+      - how-to-obtain-service-api-keys.md
 - category: automation
   icon: fa fa-retweet
   articles:
