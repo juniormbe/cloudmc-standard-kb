@@ -17,7 +17,7 @@ Nous allons aussi installer le plugin awscli-plugin-endpoint. Vous pouvez trouve
 ### Configurer le CLI pour utiliser le service de stockage objet de cloud.ca
 
 #### Retrieve your secret key and access key
-Suivez les instructions disponibles sur cette page : [Comment obtenir les informations pour l'API de stockage objet?](../how-to/how-to-obtain-object-storage-api-credentials.md) Suivre la section **Identifiants pour l'API compatible S3**.
+Suivez les instructions disponibles sur cette page : [Comment obtenir les informations pour l'API de stockage objet?](../how-to/how-to-obtain-service-api-keys.md) Suivre la section **Identifiants pour l'API compatible S3**.
 
 #### Configurer le CLI AWS
 
