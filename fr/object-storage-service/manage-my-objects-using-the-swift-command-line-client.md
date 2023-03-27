@@ -12,7 +12,7 @@ Premièrement, vous allez devoir installer le [CLI OpenStack](https://docs.opens
 
 Pour installer le CLI OpenStack générique, vous allez devoir installer le paquet **python-openstackclient**. Pour installer le CLI de Swift, vous devrez installer les paquets **python-keystoneclient** et **python-swiftclient**.
 
-Ensuite, il va vous falloir configurer les variables d'environnement pour permettre la connection vers vos environnements de stockage objet. Vous pouvez récupérer vos identifiants en suivant les instructions sur cette page : [Comment obtenir les informations pour l'API de stockage objet?](../how-to/how-to-obtain-service-api-keys.md) Utilisez la section **Identifants pour le service de stockage objet avec Keystone v3 (défaut)**.
+Ensuite, il va vous falloir configurer les variables d'environnement pour permettre la connection vers vos environnements de stockage objet. Vous pouvez récupérer vos identifiants en suivant les instructions sur cette page : [Comment obtenir des clés d'API de service](../how-to/how-to-obtain-service-api-keys.md) Utilisez la section **Identifants pour le service de stockage objet avec Keystone v3 (défaut)**.
 
 Si vous voulez gérer plusieurs environnements Swift avec le CLI, vous pouvez créer un script shell pour chaque environnement, contenant les variables d'environnement appropriées, et utiliser la [commande source (en)](http://bash.cyberciti.biz/guide/Source_command).
 
