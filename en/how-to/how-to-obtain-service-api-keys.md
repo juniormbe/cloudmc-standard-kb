@@ -1,18 +1,18 @@
 ---
-title: "How to obtain Object Storage API credentials?"
-slug: how-to-obtain-object-storage-api-credentials
+title: "How to obtain service API keys"
+slug: how-to-obtain-service-api-keys
 ---
 
 
-To get your API credentials, you need to go in the self-service portal, click on **Profile** on the menu on the left, then **API Credentials**. Then select your Object Storage Environment from the text box under **Service API keys**.
+Some services allow direct connection to their API using your CloudMC service API keys.  To get your service API keys, navigate to the user menu on the upper right of the page, click on **API credentials**, then scroll down to the section titled *Service API keys*.  Click in the search box and select the desired service.  The service API keys for the selected service will then appear below.
 
-![Service API keys](/assets/object-storage-creds-en-1.png)
+![Service API keys](/assets/api-service-keys-en-1.png)
 
 ### Credentials for Object Storage using Keystone v3 (default)
 
 The OpenStack project provides 2 CLI to interact with Object Store: the [generic OpenStack CLI](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html) and the [Swift CLI](https://www.swiftstack.com/docs/integration/python-swiftclient.html), which are configured the same way. You will need the following parameters:
 
-![OpenStack parameters](/assets/object-storage-creds-en-2.png)
+![OpenStack parameters](/assets/api-service-keys-en-2.png)
 
 You can then export the following environment variables (replace the values of **OS_PASSWORD**, **OS_USERNAME** and **OS_PROJECT_NAME** with those from the portal):
 
@@ -24,10 +24,10 @@ export OS_AUTH_URL=https://auth.cloud.ca
 export OS_IDENTITY_API_VERSION=3
 ```
 
-### Credentials for the S3-compatible API
+<!-- ### Credentials for the S3-compatible API
 The AWS CLI requires several pieces of information to connect to the S3 endpoint, including the secret key and the access key, which are available at the same place as your regular cloud.ca Object Storage credentials, as well as the endpoint URL and a region name. The endpoint URL is always **https://objects.cloud.ca** and the region name *cloud.ca*.
 
-![OpenStack S3 API key](/assets/object-storage-creds-en-3.png)
+![OpenStack S3 API key](/assets/api-service-keys-en-3.png)
 
 **Note:** If it is the first time you use the S3 API in this environment, you might need to click the "Regenerate" button on the right of the screen. Warning: this will regenerate a new password for this user for object storage (Swift and AWS), for all the environments he or she currently is part of. Alternatively, you can remove the user from the environment, and re-add it. This does not change the password for this user for any environment he or she is currently a member.
 
@@ -41,12 +41,13 @@ aws_secret_access_key = ********************
 s3 =
 endpoint_url = https://objects.cloud.ca
 ```
+-->
 
 ### Credentials for Object Storage using Keystone v2.0 (deprecated)
 
-Our Object Storage still supports connections using Keystone v2.0. However, this method is deprecated and will be removed in the future. To use the [generic OpenStack CLI](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html) and the [Swift CLI](https://www.swiftstack.com/docs/integration/python-swiftclient.html) with v2.0 credentials, use the following information:
+Object Storage still supports connections using Keystone v2.0. However, this method is deprecated and will be removed in the future. To use the [generic OpenStack CLI](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html) and the [Swift CLI](https://www.swiftstack.com/docs/integration/python-swiftclient.html) with v2.0 credentials, use the following information:
 
-![OpenStack parameters](/assets/object-storage-creds-en-4.png)
+![OpenStack parameters](/assets/api-service-keys-en-4.png)
 
 Then export the following environment variables (replace the value of **OS_USERNAME**, **OS_PROJECT_NAME** and **OS_PASSWORD** with those from the portal):
 
