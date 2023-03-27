@@ -17,7 +17,7 @@ You will also need to install the plugin awscli-plugin-endpoint. You can find in
 ### Configuring the CLI to use cloud.ca Object Storage
 
 #### Retrieve your secret key and access key
-Follow the instructions on this page to get your AWS S3 credentials: [How to obtain service API keys](../how-to/how-to-obtain-service-api-keys.md) Use the section **Credentials for the S3-compatible API**.
+Follow the instructions on this page to get your AWS S3 credentials: [How to obtain service API keys](../how-to/how-to-obtain-service-api-keys.md). Use the section **Credentials for the S3-compatible API**.
 
 #### Configure the AWS CLI
 
