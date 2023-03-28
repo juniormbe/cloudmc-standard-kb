@@ -80,7 +80,7 @@ categories:
       - aws-buckets.md
       - aws-add_a_vpc.md
       - aws-add_a_subnetwork.md
-      - add_an_instance.md
+      - aws-add_an_instance.md
       - aws-add_a_volume.md
 - category: object-storage-service
   icon: fa fa-hdd-o

@@ -1,5 +1,5 @@
 ---
-title: "Volumes"
+title: "AWS: Volumes"
 slug: aws-volumes
 ---
 
@@ -18,5 +18,5 @@ Under some circumstances, a volume attached to an instance may be configured wit
 
 Volumes are listed under the **Compute** tab of your AWS environment, in the **Volumes** section.
 
-**Parent topic:**[Compute](aws-compute.md)
+**Parent topic:**[AWS: Compute](aws-compute.md)
 

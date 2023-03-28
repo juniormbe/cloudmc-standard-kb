@@ -1,5 +1,5 @@
 ---
-title: "Add a volume"
+title: "AWS: Add a volume"
 slug: aws-add-a-volume
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "AMIs"
+title: "AWS: AMIs"
 slug: aws-amis
 ---
 
@@ -10,5 +10,5 @@ Your CloudMC administrator has provided a set of AMIs that you may select from w
 
 AMIs are listed on the **Add instance** page, under the **Choose an image** section.
 
-**Parent topic:**[Compute](aws-compute.md)
+**Parent topic:**[AWS: Compute](aws-compute.md)
 

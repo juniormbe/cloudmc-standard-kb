@@ -1,5 +1,5 @@
 ---
-title: "Add an instance"
+title: "AWS: Add an instance"
 slug: aws-add-an-instance
 ---
 

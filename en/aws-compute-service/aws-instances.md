@@ -1,5 +1,5 @@
 ---
-title: "Instances"
+title: "AWS: Instances"
 slug: aws-instances
 ---
 
@@ -16,5 +16,5 @@ To log into an instance, use the SSH key pair that is created automatically upon
 
 Instances are listed under the **Compute** tab of your AWS environment, in the **Instances** section.
 
-**Parent topic:**[Compute](aws-compute.md)
+**Parent topic:**[AWS: Compute](aws-compute.md)
 

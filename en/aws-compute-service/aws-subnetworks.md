@@ -1,5 +1,5 @@
 ---
-title: "Subnetworks"
+title: "AWS: Subnetworks"
 slug: aws-subnetworks
 ---
 
@@ -12,5 +12,5 @@ The choice of subnetwork will determine the availability zone for an instance. T
 
 Subnetworks are found in the **Networking** tab of your AWS environment. Find the desired VPC and click on the **Subnetworks** feature to see a complete list.
 
-**Parent topic:**[Networking](aws-networking.md)
+**Parent topic:**[AWS: Networking](aws-networking.md)
 

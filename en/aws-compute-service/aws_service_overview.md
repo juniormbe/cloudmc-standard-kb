@@ -1,5 +1,5 @@
 ---
-title: "Service overview"
+title: "AWS: Service overview"
 slug: aws-service-overview
 ---
 
@@ -19,8 +19,7 @@ The AWS platform is a public cloud, where customers can allocate resources to bu
 -   [Networking resources](aws-networking.md):
     -   [VPCs](aws-vpcs.md)
     -   [Subnetworks](aws-subnetworks.md)
-    -   [Elastic IPs](aws-elastic_ips.md)
--   Object storage resources
+-   [Object storage resources](aws-object_storage.md)
 -   Kubernetes clusters
 
 Because CloudMC acts as a portal to AWS services, you may find that some operations appear to behave differently than when interacting with AWS directly. However, behind the scenes, all operations execute exactly as they normally would. Changes made to AWS entities in CloudMC will be reflected immediately in the actual resources.

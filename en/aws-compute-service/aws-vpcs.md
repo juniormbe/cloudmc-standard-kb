@@ -1,5 +1,5 @@
 ---
-title: "VPCs"
+title: "AWS: VPCs"
 slug: aws-vpcs
 ---
 
@@ -20,5 +20,5 @@ Before a VPC may be used to deploy instances, at least one subnetwork must be ad
 
 VPCs are listed under the **Networking** tab of your AWS environment, in the **VPC networks** section.
 
-**Parent topic:**[Networking](aws-networking.md)
+**Parent topic:**[AWS: Networking](aws-networking.md)
 

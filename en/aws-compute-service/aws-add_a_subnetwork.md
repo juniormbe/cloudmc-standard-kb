@@ -1,5 +1,5 @@
 ---
-title: "Add a subnetwork"
+title: "AWS: Add a subnetwork"
 slug: aws-add-a-subnetwork
 ---
 

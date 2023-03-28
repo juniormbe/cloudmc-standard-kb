@@ -1,10 +1,10 @@
 ---
-title: "Compute"
+title: "AWS: Compute"
 slug: aws-compute
 ---
 
 
-![A screenshot of the AWS Compute instances page, with numbered dots indicating features of interest](/assets/aws-compute-instancelist-numdots-en.png)
+![A screenshot of the AWS Compute instances page, with numbered dots indicating features of interest](aws-compute-instancelist-numdots-en.png)
 
 1.  **List of instances**
 
@@ -27,10 +27,10 @@ slug: aws-compute
     Each entry in the instance list has a Hidden Actions menu. Click on the Hidden Actions menu to access a list of frequently-used operations for the instance.
 
 
--   **[Instances](aws-instances.md)**  
+-   **[AWS: Instances](aws-instances.md)**  
 
--   **[AMIs](aws-amis.md)**  
+-   **[AWS: AMIs](aws-amis.md)**  
 
--   **[Volumes](aws-volumes.md)**  
+-   **[AWS: Volumes](aws-volumes.md)**  
 
 

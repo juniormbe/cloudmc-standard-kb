@@ -1,5 +1,5 @@
 ---
-title: "Add a VPC"
+title: "AWS: Add a VPC"
 slug: aws-add-a-vpc
 ---
 
