@@ -40,7 +40,7 @@ secretkey = <Secret_key>
 
 ### Connect to the CloudStack service
 
-Launch the CLI with the command `cloudmonkey`, then use the  CLI command `sync` to confirm CloudMonkey is connected to the CloudStack API.
+Launch the CLI with the command `cloudmonkey`, then use the CLI command `sync` to confirm CloudMonkey is connected to the CloudStack API.
 
 ```
 user1$ cloudmonkey
