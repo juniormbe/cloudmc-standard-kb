@@ -1,10 +1,11 @@
 ---
-title: "Networking"
-slug: aws-networking
+author: "AWS: Networking"
+publisher: aws-networking
 ---
 
+# AWS: Networking
 
-![A screenshot of the AWS Networking page, listing all VPCs, with numbered dots indicating features of interest](/assets/aws-compute-vpclist-numdots-en.png)
+![A screenshot of the AWS Networking page, listing all VPCs, with numbered dots indicating features of interest](aws-compute-vpclist-numdots-en.png "List of AWS VPCs")
 
 1.  **List of VPCs**
 
@@ -35,8 +36,10 @@ slug: aws-networking
     Click on the gear icon to navigate directly to that feature.
 
 
--   **[VPCs](aws-vpcs.md)**  
+-   **[AWS: VPCs](aws-vpcs.md)**  
 
--   **[Subnetworks](aws-subnetworks.md)**  
+-   **[AWS: Subnetworks](aws-subnetworks.md)**  
+
+-   **[AWS: Security groups](aws-security_groups.md)**  
 
 

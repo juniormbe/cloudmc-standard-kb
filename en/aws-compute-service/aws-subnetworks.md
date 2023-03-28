@@ -1,8 +1,9 @@
 ---
-title: "Subnetworks"
-slug: aws-subnetworks
+author: "AWS: Subnetworks"
+publisher: aws-subnetworks
 ---
 
+# AWS: Subnetworks
 
 A subnetwork is a portion of an AWS VPC that can be used to deploy instances. A single subnetwork may use a part of the IP range of its VPC, or it may use the VPC's full IP range.
 
@@ -12,5 +13,5 @@ The choice of subnetwork will determine the availability zone for an instance. T
 
 Subnetworks are found in the **Networking** tab of your AWS environment. Find the desired VPC and click on the **Subnetworks** feature to see a complete list.
 
-**Parent topic:**[Networking](aws-networking.md)
+**Parent topic:**[AWS: Networking](aws-networking.md)
 

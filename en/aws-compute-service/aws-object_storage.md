@@ -1,10 +1,11 @@
 ---
-title: "Object storage"
-slug: aws-object-storage
+author: "AWS: Object storage"
+publisher: aws-object-storage
 ---
 
+# AWS: Object storage
 
-![A screenshot of the AWS Object Storage buckets page, with numbered dots indicating features of interest](/assets/aws-objectstorage-bucketlist-numdots-en.png)
+![A screenshot of the AWS Object Storage buckets page, with numbered dots indicating features of interest](aws-objectstorage-bucketlist-numdots-en.png "List of AWS object storage buckets")
 
 1.  **List of buckets**
 
@@ -31,6 +32,6 @@ slug: aws-object-storage
     Each entry in the bucket list has a Hidden Actions menu. Click on the Hidden Actions menu to access a list of frequently-used operations for the bucket.
 
 
--   **[Buckets](aws-buckets.md)**  
+-   **[AWS: Buckets](aws-buckets.md)**  
 
 

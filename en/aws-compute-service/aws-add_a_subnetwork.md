@@ -1,8 +1,9 @@
 ---
-title: "Add a subnetwork"
-slug: aws-add-a-subnetwork
+author: "AWS: Add a subnetwork"
+publisher: aws-add-a-subnetwork
 ---
 
+# AWS: Add a subnetwork
 
 ## About this task
 

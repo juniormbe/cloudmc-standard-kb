@@ -1,8 +1,9 @@
 ---
-title: "Add an instance"
-slug: aws-add-an-instance
+author: "AWS: Add an instance"
+publisher: aws-add-an-instance
 ---
 
+# AWS: Add an instance
 
 ## About this task
 

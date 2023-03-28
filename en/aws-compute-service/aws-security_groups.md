@@ -1,8 +1,9 @@
 ---
-title: "Security groups"
-slug: aws-security-groups
+author: "AWS: Security groups"
+publisher: aws-security-groups
 ---
 
+# AWS: Security groups
 
 Security groups are sets of rule that provide control over network access to your resources in an AWS environment.
 
@@ -21,5 +22,5 @@ When deploying a new instance, the **Add instance** wizard presents three choice
     You can specify an IP address or a CIDR block, protocol, and port numbers to be allowed ingress. Enter a name and description for the security group, or accept the defaults, then enter the criteria for the group.
 
 
-**Parent topic:**[Networking](aws-networking.md)
+**Parent topic:**[AWS: Networking](aws-networking.md)
 

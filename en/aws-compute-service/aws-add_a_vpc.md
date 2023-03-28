@@ -1,8 +1,9 @@
 ---
-title: "Add a VPC"
-slug: aws-add-a-vpc
+author: "AWS: Add a VPC"
+publisher: aws-add-a-vpc
 ---
 
+# AWS: Add a VPC
 
 ## About this task
 

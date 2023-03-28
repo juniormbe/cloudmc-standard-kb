@@ -1,10 +1,11 @@
 ---
-title: "Buckets"
-slug: aws-buckets
+author: "AWS: Buckets"
+publisher: aws-buckets
 ---
 
+# AWS: Buckets
 
-![A screenshot of the contents of an AWS bucket, with numbered dots indicating features of interest](/assets/aws-objectstorage-filelist-numdots-en.png)
+![A screenshot of the contents of an AWS bucket, with numbered dots indicating features of interest](aws-objectstorage-filelist-numdots-en.png "List of objects in an AWS bucket")
 
 1.  **List of objects**
 
@@ -37,5 +38,5 @@ Each bucket has a name, an AWS region, and access permissions.
 
 **Attention:** Once a bucket has been created, its name and region cannot be changed.
 
-**Parent topic:**[Object storage](aws-object_storage.md)
+**Parent topic:**[AWS: Object storage](aws-object_storage.md)
 
