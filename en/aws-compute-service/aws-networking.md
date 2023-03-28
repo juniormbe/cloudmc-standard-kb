@@ -4,7 +4,7 @@ slug: aws-networking
 ---
 
 
-![A screenshot of the AWS Networking page, listing all VPCs, with numbered dots indicating features of interest](aws-compute-vpclist-numdots-en.png "List of AWS VPCs")
+![A screenshot of the AWS Networking page, listing all VPCs, with numbered dots indicating features of interest](aws-compute-vpclist-numdots-en.png)
 
 1.  **List of VPCs**
 
