@@ -1,9 +1,8 @@
 ---
-author: "AWS: Service overview"
-publisher: aws-service-overview
+title: "AWS: Service overview"
+slug: aws-service-overview
 ---
 
-# AWS: Service overview
 
 ## Summary
 
@@ -20,7 +19,6 @@ The AWS platform is a public cloud, where customers can allocate resources to bu
 -   [Networking resources](aws-networking.md):
     -   [VPCs](aws-vpcs.md)
     -   [Subnetworks](aws-subnetworks.md)
-    -   [Elastic IPs](aws-elastic_ips.md)
 -   [Object storage resources](aws-object_storage.md)
 -   Kubernetes clusters
 

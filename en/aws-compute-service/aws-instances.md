@@ -1,9 +1,8 @@
 ---
-author: "AWS: Instances"
-publisher: aws-instances
+title: "AWS: Instances"
+slug: aws-instances
 ---
 
-# AWS: Instances
 
 Similar to other cloud platforms, AWS provides you with the infrastructure to run virtual machines. These virtual machines are referred to as instances. An instance is based on a pre-defined image called an **[AMI](aws-amis.md)**, which cannot be changed once an instance is deployed. Different sets of specifications are grouped together as instance types. Each instance type is a bundle of various sizes of vCPU, memory, and a root storage volume. For more details, see [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) in the AWS documentation.
 

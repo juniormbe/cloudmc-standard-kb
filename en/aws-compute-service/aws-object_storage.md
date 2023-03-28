@@ -1,9 +1,8 @@
 ---
-author: "AWS: Object storage"
-publisher: aws-object-storage
+title: "AWS: Object storage"
+slug: aws-object-storage
 ---
 
-# AWS: Object storage
 
 ![A screenshot of the AWS Object Storage buckets page, with numbered dots indicating features of interest](aws-objectstorage-bucketlist-numdots-en.png "List of AWS object storage buckets")
 

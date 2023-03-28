@@ -1,9 +1,8 @@
 ---
-author: "AWS: Buckets"
-publisher: aws-buckets
+title: "AWS: Buckets"
+slug: aws-buckets
 ---
 
-# AWS: Buckets
 
 ![A screenshot of the contents of an AWS bucket, with numbered dots indicating features of interest](aws-objectstorage-filelist-numdots-en.png "List of objects in an AWS bucket")
 

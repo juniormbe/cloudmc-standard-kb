@@ -1,9 +1,8 @@
 ---
-author: "AWS: VPCs"
-publisher: aws-vpcs
+title: "AWS: VPCs"
+slug: aws-vpcs
 ---
 
-# AWS: VPCs
 
 A Virtual Private Cloud, referred to as a VPC, is a standard feature of cloud-based computing, and provides the underlying network structure where instances are deployed. A VPC is assigned an IP range, and can host one or more subnetworks within that range. Instances may then be created as needed within a subnetwork. See \[What is a VPC?\]\(../cloudstack-compute-service/what-is-a-vpc.md\) for general information on VPCs.
 

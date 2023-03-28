@@ -1,9 +1,8 @@
 ---
-author: "AWS: Add a volume"
-publisher: aws-add-a-volume
+title: "AWS: Add a volume"
+slug: aws-add-a-volume
 ---
 
-# AWS: Add a volume
 
 ## About this task
 

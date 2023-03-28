@@ -1,9 +1,8 @@
 ---
-author: "AWS: Networking"
-publisher: aws-networking
+title: "AWS: Networking"
+slug: aws-networking
 ---
 
-# AWS: Networking
 
 ![A screenshot of the AWS Networking page, listing all VPCs, with numbered dots indicating features of interest](aws-compute-vpclist-numdots-en.png "List of AWS VPCs")
 
