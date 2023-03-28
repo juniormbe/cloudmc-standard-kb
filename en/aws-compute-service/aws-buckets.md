@@ -4,7 +4,7 @@ slug: aws-buckets
 ---
 
 
-![A screenshot of the contents of an AWS bucket, with numbered dots indicating features of interest](aws-objectstorage-filelist-numdots-en.png)
+![A screenshot of the contents of an AWS bucket, with numbered dots indicating features of interest](/assets/aws-objectstorage-filelist-numdots-en.png)
 
 1.  **List of objects**
 
