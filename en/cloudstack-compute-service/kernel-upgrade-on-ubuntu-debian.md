@@ -4,7 +4,7 @@ slug: kernel-upgrade-on-ubuntu-debian
 ---
 
 
-### To upgrade kernel to version 4.4 on an Ubuntu 14.04.x instance :
+### To upgrade kernel to version 4.4 on an Ubuntu 14.04.x instance:
 
 - On the required Virtual Machine, login via console or ssh.
 - Confirm the running kernel is 3.13.x.  Run : `uname -a`
@@ -17,7 +17,7 @@ slug: kernel-upgrade-on-ubuntu-debian
    - Verify remaining packages. Run : `sudo dpkg -l |grep linux-image`
    - If there are remaining packages that need un-installation, run : `sudo apt-get remove packagename --purge`
 
-### To upgrade kernel to version 3.16 on a Debian 8.x instance :
+### To upgrade kernel to version 3.16 on a Debian 8.x instance:
 
 - On the required Virtual Machine, login via console or ssh.
 - Confirm the running kernel is 3.13.x.  Run :  `uname -a`. If already running version 3.16, nothing more is required.
