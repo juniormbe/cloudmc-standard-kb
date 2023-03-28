@@ -4,7 +4,7 @@ slug: aws-object-storage
 ---
 
 
-![A screenshot of the AWS Object Storage buckets page, with numbered dots indicating features of interest](aws-objectstorage-bucketlist-numdots-en.png)
+![A screenshot of the AWS Object Storage buckets page, with numbered dots indicating features of interest](/assets/aws-objectstorage-bucketlist-numdots-en.png)
 
 1.  **List of buckets**
 
