@@ -6,7 +6,7 @@ slug:  install-and-config-cloudmonkey
 
 Apache CloudMonkey is a Command Line Interface written in Python to interact with Apache CloudStack APIs.
 
-This tool is useful to automate Virtual infrastructure in CloudStack or to manage it thru the CLI. Apache CloudMonkey can be installed on various Operating System such as Linux and macOS, it only requires Python 2.7+ to be installed.
+This tool is useful to automate Virtual infrastructure in CloudStack or to manage it thru the CLI. Apache CloudMonkey can be installed on various operating systems such as Linux and macOS, it only requires Python 2.7+ to be installed.
 
 ### Installation and Configuration
 
