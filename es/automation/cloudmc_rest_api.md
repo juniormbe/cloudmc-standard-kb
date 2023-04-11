@@ -22,5 +22,5 @@ Además de las claves de API, la página **Credenciales de API** también mostra
 
 Para obtener la documentación completa de la API, incluida la estructura de solicitudes y respuestas, la funcionalidad disponible y una lista de todos los puntos finales, consulta el siguiente artículo:
 
--   <a href="https://cloudops.github.io/cloudmc-api-docs/#getting-started" target="_blank">CloudMC API</a>(**en inglés**)
+-   <a href="https://cloudops.github.io/cloudmc-api-docs/#getting-started" target="_blank">CloudMC API</a>(*en inglés*)
 
