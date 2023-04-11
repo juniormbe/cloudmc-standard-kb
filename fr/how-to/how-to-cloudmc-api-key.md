@@ -27,7 +27,7 @@ Le point de terminaison pour effectuer des appels d'API vers le système est aff
 1. À partir de l'écran *Identifiants d'API*, cliquez sur le bouton *Générer une clé d'API*.
 1. Entrez un nom pour la nouvelle clé dans le champ de texte **Nom**. Vous pouvez donner à la clé un nom qui reflète l'application pour laquelle elle sera utilisée. Cliquez sur *Générer*.
 1. Vous serez renvoyé à l'écran *Identifiants d'API*. Une notification apparaîtra avec la nouvelle clé API masquée.
-    - Il faut récupérer la nouvelle clé **à partir de cette notification**. Une fois la notification rejetée, il n'y a aucun moyen d'afficher à nouveau la clé API.
+    - **Il faut récupérer** la nouvelle clé à partir de cette notification. Une fois la notification rejetée, il n'y a aucun moyen d'afficher à nouveau la clé API.
     - Cliquez sur le symbole de l'œil pour révéler la clé API.
     - Cliquez sur l'icône du presse-papiers pour copier la clé API dans votre presse-papiers.
 1. La clé API est maintenant prête à être utilisée. Rangez-le dans un endroit sûr.
