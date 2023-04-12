@@ -33,5 +33,5 @@ Las notificaciones que hayan desaparecido del panel de **Notificaciones** serán
 
 Algunas notificaciones son fijas, lo que significa que tu administrador requiere que borres manualmente la notificación después de leerla. Para borrar una notificación fija, abre el panel de notificaciones y haz clic en el botón **Borrar** junto a la notificación. También puedes usar el botón **Borrar todo** en la parte superior del panel.
 
-Las notificaciones de bienvenida, por otro lado, no aparecen en el panel de notificaciones. En cambio, estos aparecen en el centro de la página de CloudMC. Tienen un botón **Cerrar** y todas las funciones de la plataforma no están disponibles hasta que cierras la notificación. Si cierras sesión y luego vuelves a iniciar sesión, la notificación se mostrará nuevamente, hasta que haces clic en el botón **Cerrar**.
+Las notificaciones splash, por otro lado, no aparecen en el panel de notificaciones. En cambio, estos aparecen en el centro de la página de CloudMC. Tienen un botón **Cerrar** y todas las funciones de la plataforma no están disponibles hasta que cierras la notificación. Si cierras sesión y luego vuelves a iniciar sesión, la notificación se mostrará nuevamente, hasta que haces clic en el botón **Cerrar**.
 
