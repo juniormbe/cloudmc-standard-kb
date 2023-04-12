@@ -112,6 +112,7 @@ categories:
       - display-dates-in-your-preferred-time-zone.md
       - how-to-cloudmc-api-key.md
       - how-to-obtain-service-api-keys.md
+      - access_your_notifications.md
 - category: automation
   icon: fa fa-retweet
   articles:
