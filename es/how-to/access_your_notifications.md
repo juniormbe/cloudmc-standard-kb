@@ -20,7 +20,7 @@ Para estas situaciones, CloudMC creará una notificación en el panel de notific
 
 Debido al carácter transitorio y confidencial de las notificaciones del sistema, solo se puede acceder a ellas desde el panel de notificaciones y CloudMC nunca las guarda.
 
-## Notificaciones de su organización
+## Notificaciones de tu organización
 
 Cuando tu organización necesite comunicarse con usted, el administrador de tu sistema publicará una notificación. Las notificaciones de tu organización aparecerán de dos maneras:
 
