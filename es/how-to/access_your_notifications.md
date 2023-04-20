@@ -8,7 +8,7 @@ Este artículo describe las notificaciones y cómo acceder a ellas y administrar
 
 ## Descripción general
 
-De vez en cuando, recibirás varios mensajes dentro de la plataforma. Algunos de estos mensajes pueden ser generados automáticamente por el sistema, otros pueden ser titulados y publicados por el administrador del sistema. En conjunto, estos mensajes se denominan **notificaciones**.
+De vez en cuando, recibirás varios mensajes dentro de la plataforma. Algunos de estos mensajes pueden ser generados automáticamente por el sistema, otros pueden ser escritos y publicados por el administrador del sistema. En conjunto, estos mensajes se denominan **notificaciones**.
 
 Tus notificaciones aparecen en el panel de **Notificaciones**, al que se puede acceder a través del ícono de campana en el lado derecho de la barra de menú, en la parte superior de la página.
 
