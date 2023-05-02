@@ -12,7 +12,7 @@ Les instances dans des VPC distincts sont isolées les unes des autres. Souvent,
 
 Pour résoudre ces problèmes, les fournisseurs de services peuvent proposer une infrastructure de réseau privé dédiée pour permettre l'appairage de deux VPC. Le trafic réseau entre les VPC traverse un chemin interne au lieu du réseau public. Ceci est utile lorsqu'une connexion fiable et rapide est nécessaire, comme pour les applications en temps réel ou pour la surveillance et la gestion. Dans un tel scénario, CloudMC est en mesure de tirer parti du chemin interne en créant une passerelle privée entre les VPC.
 
-![Illustration simplifiée de deux VPC appairés par une passerelle privée sur une connexion réseau interne](/assets/private-gateways-diagram-en.jpg)
+![Illustration simplifiée de deux VPC appairés par une passerelle privée sur une connexion réseau interne](/assets/private-gateways-diagram-fr.jpg)
 
 Le diagramme ci-dessus illustre une topologie possible, où deux VPC sont appairés et chaque côté peut communiquer avec l'autre. Un routeur virtuel dans le VPC 1 se connecte à la passerelle privée via une interface réseau dédiée. Les cases rouges contiennent l'adresse IP qui pourrait être attribuée à chaque interface. Les adresses IP sont fournies à titre indicatif uniquement. Une passerelle privée est configurée dans les deux VPC et est identifiée de chaque côté par l'adresse IP de l'interface de terminaison sur le routeur virtuel. Dans cette illustration, la passerelle privée du VPC 1 serait répertoriée comme 10.0.5.2 et la passerelle privée du VPC 2 serait 10.0.2.2. Le diagramme n'inclut pas des détails du réseau physique sous-jacent, et il omet également les réseaux au sein de chaque VPC.
 
@@ -20,7 +20,7 @@ Le diagramme ci-dessus illustre une topologie possible, où deux VPC sont appair
 
 Les passerelles privées sont visibles en accédant à l'environnement de votre choix, puis sur **Réseau** \> **Passerelles privées**.
 
-![Une capture d'écran de la page de présentation du VPC, avec des points numérotés indiquant les fonctionnalités de la passerelle privée](/assets/private-gateways-vpc-en.png)
+![Une capture d'écran de la page de présentation du VPC, avec des points numérotés indiquant les fonctionnalités de la passerelle privée](/assets/private-gateways-vpc-fr.png)
 
 1. **Liste des passerelles privées**
 
@@ -33,7 +33,7 @@ Les passerelles privées sont visibles en accédant à l'environnement de votre 
 
 ## Passerelles privées et ACL
 
-![Capture d'écran de la page des détails des passerelles privées, avec des points numérotés sur les principales fonctionnalités](/assets/private-gateways-list-en.png)
+![Capture d'écran de la page des détails des passerelles privées, avec des points numérotés sur les principales fonctionnalités](/assets/private-gateways-list-fr.png)
 
 1. **Liste des passerelles privées**
 
@@ -56,7 +56,7 @@ Les passerelles privées sont visibles en accédant à l'environnement de votre 
 
 ## Routes statiques
 
-![Une capture d'écran de la page routes statiques, avec des points numérotés sur les principales fonctionnalités](/assets/private-gateways-static-routes-en.png)
+![Une capture d'écran de la page routes statiques, avec des points numérotés sur les principales fonctionnalités](/assets/private-gateways-static-routes-fr.png)
 
 1. **Liste des routes statiques**
 
