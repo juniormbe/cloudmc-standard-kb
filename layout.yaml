@@ -31,6 +31,7 @@ categories:
       - kernel-upgrade-on-ubuntu-debian.md
       - move-instance-to-different-vpc.md
       - force-reboot-an-instance.md
+      - private_gateways.md
 - category: gcp-compute-service
   icon: fa fa-cloud
   articles:
