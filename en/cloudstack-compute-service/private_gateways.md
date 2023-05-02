@@ -68,7 +68,7 @@ Private gateways can be seen by navigating to your desired environment, then **N
 
 3.  **Add static route**
 
-    Clicking this button will open a dialog box where you can enter add a new static route to the private gateway. Enter the CIDR of the destination network or host, and traffic to that destination will be routed through the private gateway.
+    Clicking this button will open a dialog box where you can enter a new static route to the private gateway. Enter the CIDR of the destination network or host, and traffic to that destination will be routed through the private gateway.
 
 4.  **Static route row**
 
