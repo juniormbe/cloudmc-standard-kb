@@ -47,6 +47,8 @@ Las puertas de enlace privadas se pueden ver navegando a tu entorno deseado, lue
 
      Cada fila incluye la dirección IP y la máscara de subred de la interfaz del enrutador virtual conectada a la puerta de enlace privada, la dirección IP de la puerta de enlace privada, su estado y la ACL aplicada actualmente.
 
+     Haz clic en una puerta de enlace privada para ver sus detalles, incluidas las rutas estáticas.
+
 4. **Menú de acciones escondidas**
 
      Cada entrada en la lista de puertas de enlace privadas tiene un menú de Acciones ocultas. Haz clic en el menú Acciones escondidas para acceder al comando **Reemplazar ACL**.

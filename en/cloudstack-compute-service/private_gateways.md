@@ -47,6 +47,8 @@ Private gateways can be seen by navigating to your desired environment, then **N
 
     Each row includes the IP address and subnet mask of the virtual router interface connected to the private gateway, the IP address of the private gateway itself, its status, and the ACL currently applied.
 
+    Click on a private gateway to see its details, including static routes.
+
 4.  **Hidden Actions menu**
 
     Each entry in the private gateways list has a Hidden Actions menu. Click on the Hidden Actions menu to access the **Replace ACL** command.

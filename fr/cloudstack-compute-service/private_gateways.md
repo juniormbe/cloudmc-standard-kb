@@ -47,6 +47,8 @@ Les passerelles privées sont visibles en accédant à l'environnement de votre 
 
      Chaque ligne comprend l'adresse IP et le masque de sous-réseau de l'interface du routeur virtuel connecté à la passerelle privée, l'adresse IP de la passerelle privée elle-même, son état et l'ACL actuellement appliquée.
 
+     Cliquez sur une passerelle privée pour voir ses détails, y compris les routes statiques.
+
 4. **Menu Actions cachées**
 
      Chaque entrée de la liste des passerelles privées possède un menu Actions cachées. Cliquez sur le menu Actions cachées pour accéder à la commande **Remplacer ACL**.
