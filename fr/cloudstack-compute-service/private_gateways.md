@@ -70,7 +70,7 @@ Les passerelles privées sont visibles en accédant à l'environnement de votre 
 
 3. **Ajouter une route statique**
 
-     Cliquez sur ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez entrer une nouvelle route statique à la passerelle privée. Entrez le CIDR du réseau ou de l'hôte de destination, et le trafic vers cette destination sera acheminé via la passerelle privée.
+     Cliquez sur ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez ajouter une nouvelle route statique à la passerelle privée. Entrez le CIDR du réseau ou de l'hôte de destination, et le trafic vers cette destination sera acheminé via la passerelle privée.
 
 4. **Ligne de route statique**
 

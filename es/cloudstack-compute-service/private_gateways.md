@@ -70,7 +70,7 @@ Las puertas de enlace privadas se pueden ver navegando a tu entorno deseado, lue
 
 3. **Añadir ruta estática**
 
-     Al hacer clic en este botón, se abrirá un cuadro de diálogo donde puede ingresar una nueva ruta estática a la puerta de enlace privada. Ingresa el CIDR de la red o el host de destino, y el tráfico a ese destino se enrutará a través de la puerta de enlace privada.
+     Al hacer clic en este botón, se abrirá un cuadro de diálogo donde puede agregar una nueva ruta estática a la puerta de enlace privada. Ingresa el CIDR de la red o el host de destino, y el tráfico a ese destino se enrutará a través de la puerta de enlace privada.
 
 4. **Fila de ruta estática**
 
