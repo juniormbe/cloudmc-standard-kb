@@ -99,7 +99,6 @@ categories:
 - category: administration
   icon: fa fa-wrench
   articles:
-      - enable-two-factor-authentication.md
       - branding.md
       - manage-users.md
       - native-authentication-policies.md
@@ -110,6 +109,7 @@ categories:
 - category: how-to
   icon: fa fa-question
   articles:
+      - enable-2fa.md  
       - display-dates-in-your-preferred-time-zone.md
       - how-to-cloudmc-api-key.md
       - how-to-obtain-service-api-keys.md
